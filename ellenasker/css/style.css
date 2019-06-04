@@ -124,6 +124,7 @@ nav a.selected{
     font-size: 1.6em;
 }
 
+/* Create thumb nails using http://makethumbnails.com/#dropzone */
 .grid-cell img {
     width: 100%;
 }
