@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../imgs/fav.png"/>
+    <title>Ellen Asker</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery.modal.min.css">
+    <!-- We are now inside a subdirectory, add '..' to paths -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery.modal.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+      setRoot("../");
+      setSelected("#menu-3"); // set selected menu item
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- Header and navbar, loaded automatically -->
+      <div id="header"></div>
+      <nav id="nav"></nav>
+
+      <div id="content">
+        <!-- Transcription -->
+        <div class="col-2">
+            <h2>Transkription</h2>
+            JULMAT 261 
+            <br/>
+            <br/>
+            JULAFTON. <br/>
+            <br/>
+            Lunch: Vörtbröd, saffrans- och hvetebröd med<br/>
+            russin, pepparkakor, chocolad, honung, ris-<br/>
+            grynsgröt med kompott och mjölk. <br/>
+            Middag: Redd soppa med smorgasar af  vört-<br/>
+            bröd med ost. Potatispudding med svampsås, <br/>
+            ärter och helbrynt potatis samt vinbärsgelé.<br/>
+            <br/>
+            <hr>
+            <br/>
+            JULDAGEN<br/>
+            <br/>
+            Lunch: Vörtbrod, saffrans- och hvetebrod med <br/>
+            russin, pepparkakor, chocolad och ost. Korn-<br/>
+            grynskaka med lingon. <br/>
+            Middag: Grönkålsoppa med förlorade ägg. <br/>
+            Vôle-au-vent med gurkragout och färsk salat. <br/>
+            Nudel, kokt i lökspad med tomatsås, brynta <br/>
+            morötter och potatismos samt salatskörsbär.<br/>
+            Saftgelé med klenätter och vispad grädde.<br/>
+            Frukt, nötter, fikon, russin och mandel, choco-<br/>
+            -lad och små marcipangrisar. <br/>
+            <br/>
+            <hr>
+            <br/>
+        </div>
+        <!-- Image -->
+        <div class="col-2">
+        <h2>Faksimil</h2>
+            <div class="image-small">
+                <a href="#ex1" rel="modal:open">
+                    <img src="../imgs/s261.jpg" alt="../imgs/s261.jpg">
+                </a>
+            </div>
+        </div>
+        <!-- Shown on click -->
+        <div id="ex1" class="modal">
+            <img src="../imgs/s261.jpg" alt="../imgs/s261.jpg">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

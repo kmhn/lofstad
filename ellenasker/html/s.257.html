@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../imgs/fav.png"/>
+    <title>Ellen Asker</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery.modal.min.css">
+    <!-- We are now inside a subdirectory, add '..' to paths -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery.modal.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+      setRoot("../");
+      setSelected("#menu-3"); // set selected menu item
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- Header and navbar, loaded automatically -->
+      <div id="header"></div>
+      <nav id="nav"></nav>
+
+      <div id="content">
+        <!-- Transcription -->
+        <div class="col-2">
+            <h2>Transkription</h2>
+            <br/>
+            EXEMPEL PÅ FESTMIDDAGAR 257<br/>
+            <br/>
+            VÅR.<br/>
+            <br/>
+            Middag: Jordärtskockssoppa med oststänger.<br/>
+            Vôle-au-vent med gurkragout och färsk salat.<br/>
+            Murkelris i form, uppstjälpt med murkelsås,<br/>
+            blomkål, morötter med äggredning och syrlig <br/>
+            potatis, samt syltade tomater. Kronärtskocks-<br/>
+            bottnar med rördt smör. Drottningholmtårta<br/>
+            med citronsås och kompott. Apelsiner, äpplen,<br/>
+            valnötter, russin, chocolad.<br/>
+            <br/>
+            <hr>
+            <br/>
+            SOMMAR.<br/>
+            <br/>
+            Middag: Klar grönsoppa och smörgåsar med <br/>
+            ost. Potatispudding 1 med svampsås, ärter, <br/>
+            potatiskroketter och sockerärter samt lingon-<br/>
+            sylt och färsk gurka med salatsås. Sparris med<br/> 
+            rördt smör. Jordgubbar med god kaka med <br/>
+            russin och mandel samt frusen grädde. Vin-<br/>
+            drufvor, klara astrakaner och melon. <br/>
+            <br/>
+            <hr> 
+            #17
+        </div>
+        <!-- Image -->
+        <div class="col-2">
+        <h2>Faksimil</h2>
+            <div class="image-small">
+                <a href="#ex1" rel="modal:open">
+                    <img src="../imgs/s257.jpg" alt="../imgs/s257.jpg">
+                </a>
+            </div>
+        </div>
+        <!-- Shown on click -->
+        <div id="ex1" class="modal">
+            <img src="../imgs/s257.jpg" alt="../imgs/s257.jpg">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

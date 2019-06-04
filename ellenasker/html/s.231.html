@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../imgs/fav.png"/>
+    <title>Ellen Asker</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery.modal.min.css">
+    <!-- We are now inside a subdirectory, add '..' to paths -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery.modal.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+      setRoot("../");
+      setSelected("#menu-3"); // set selected menu item
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- Header and navbar, loaded automatically -->
+      <div id="header"></div>
+      <nav id="nav"></nav>
+
+      <div id="content">
+        <!-- Transcription -->
+        <div class="col-2">
+            <h2>Transkription</h2>
+            MATSEDLAR FOR EN MÅNAD, SOMMAREN 231 <br/>
+            <br/>
+            SOMMAREN. <br/>
+            <br/>
+            <hr>
+            <br/>
+            <i>Till hvarje mål, om man så hafva kan, rikligt <br/>
+            med friska bär eller kompott af alla slag samt <br/>
+            frukt, allt efter årstiden, färsk eller inkokt.<br/> 
+            Färsk salat, färsk gurka.</i> <br/>
+            Till lunchen dagligen smör, kraft- eller gra-<br/>
+            hamsbröd, hårdt bröd, rostbröd, skorpor, Lah-<br/>
+            manns närsaltchocolad eller vispad, sur mjölk, <br/>
+            rädisor. Söndag: hafrecakes, söndag och onsdag: <br/>
+            honung och ibland ost eller quark. <br/>
+            Till middagen endast hårdt groft bröd. <br/>
+            <br/>
+            <hr>
+            <br/>
+            MÅNDAG.<br/> 
+            Lunch: Spenatomelett med stekt potatis. <br/>
+            Middag: Wienerbullar med blomkål, färsk po-<br/>
+            tatis och steksås. Färsk, kokt rabarber med <br/>
+            sandtårta. <br/>
+            <br/>
+            TISDAG. <br/>
+            Lunch: Kroppkakor med lingon. <br/>
+            Middag: Maccaroni med ost, caprissås, spenat<br/>
+            och färsk potatis. Jordgubbar med grädde och <br/>
+            kaka. <br/>
+            <br/>
+        </div>
+        <!-- Image -->
+        <div class="col-2">
+        <h2>Faksimil</h2>
+            <div class="image-small">
+                <a href="#ex1" rel="modal:open">
+                    <img src="../imgs/s231.jpg" alt="../imgs/s231.jpg">
+                </a>
+            </div>
+        </div>
+        <!-- Shown on click -->
+        <div id="ex1" class="modal">
+            <img src="../imgs/s231.jpg" alt="../imgs/s231.jpg">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

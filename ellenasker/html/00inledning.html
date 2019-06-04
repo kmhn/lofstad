@@ -1,47 +1,65 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="../css/my-style.css"/>
-        
-    </head>
-    <body> 
-    
-    <div class="row">
-  	<div class="column">
-        <div class="content">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../imgs/fav.png"/>
+    <title>Ellen Asker</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery.modal.min.css">
+    <!-- We are now inside a subdirectory, add '..' to paths -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery.modal.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+      setRoot("../");
+      setSelected("#menu-3"); // set selected menu item
+    </script>
+  </head>
 
+  <body>
+    <div id="container">
+      <!-- Header and navbar, loaded automatically -->
+      <div id="header"></div>
+      <nav id="nav"></nav>
 
-        <h2>Column 1</h2>
-        <p>INLEDNING<br/>
-                Det är nu snart tio år sedan jag som sista<br/>
-                försök till räddning undan sjukdom och död be-<br/>
-                stämde mig för att blifva vegetarian. Jag hade för-<br/>
-                sökt allt, från medicin till blodbildande medel och<br/>
-                piller af diverse slag, ja till och med de så an-<br/>
-                nonserade elektriska apparaterna, allt utan resul-<br/>
-                tat. Jag befann mig i ett fruktansvärdt tillstånd.<br/>
-        		Min sjukdom, som jag kände inom mig långt<br/>
-        		innan den bröt ut, hade förmått mig lämna den<br/>
-                bana jag valt och älskade: sjömannens, och mig<br/>
-                återstod knappast annat än sträcka gevär.<br/>
-                Men hela mitt inre uppreste sig däremot, och<br/>
-                jag beslöt, kosta hvad det ville, bryta mig igenom<br/>
-                sjukdomseländet eller stupa på kuppen.<br/>
-                Om vegetarismen visste jag intet och den var<br/>
-                då så godt som okänd i Sverige.<br/></p>
-      	</div>
-    </div>
-  	
-  	<div class="column">
-        <div class="content">
-            <h2>Column 2</h2>
-            <div class="image">
-                <a target="_blank" href="./img/00(14).jpg">
-             	<img src="../img/00(14).jpg">
+      <div id="content">
+        <!-- Transcription -->
+        <div class="col-2">
+            <h2>Transkription</h2>
+            <p>INLEDNING.<br/>
+            <hr>
+            <br/>
+            Det är nu snart tio år sedan jag som sista<br/>
+            försök till räddning undan sjukdom och död be-<br/>
+            stämde mig för att blifva vegetarian. Jag hade för-<br/>
+            sökt allt, från medicin till blodbildande medel och<br/>
+            piller af diverse slag, ja till och med de så an-<br/>
+            nonserade elektriska apparaterna, allt utan resul-<br/>
+            tat. Jag befann mig i ett fruktansvärdt tillstånd.<br/>
+            Min sjukdom, som jag kände inom mig långt<br/>
+            innan den bröt ut, hade förmått mig lämna den<br/>
+            bana jag valt och älskade: sjömannens, och mig<br/>
+            återstod knappast annat än sträcka gevär.<br/>
+            Men hela mitt inre uppreste sig däremot, och<br/>
+            jag beslöt, kosta hvad det ville, bryta mig igenom<br/>
+            sjukdomseländet eller stupa på kuppen.<br/>
+            Om vegetarismen visste jag intet och den var<br/>
+            då så godt som okänd i Sverige.<br/></p>
+        </div>
+        <!-- Image -->
+        <div class="col-2">
+        <h2>Faksimil</h2>
+            <div class="image-small">
+                <a href="#ex1" rel="modal:open">
+                    <img src="../imgs/00(14).jpg" alt="../imgs/00(14).jpg">
+                </a>
             </div>
-     	</div>
-	</div>   
-    		
-    </body>
+        </div>
+        <!-- Shown on click -->
+        <div id="ex1" class="modal">
+            <img src="../imgs/00(14).jpg" alt="../imgs/00(14).jpg">
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

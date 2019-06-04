@@ -1,17 +1,35 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="css/my-style.css"/>
-    </head>
-    <body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../imgs/fav.png"/>
+    <title>Ellen Asker</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery.modal.min.css">
+    <!-- We are now inside a subdirectory, add '..' to paths -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery.modal.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+      setRoot("../");
+      setSelected("#menu-3"); // set selected menu item
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- Header and navbar, loaded automatically -->
+      <div id="header"></div>
+      <nav id="nav"></nav>
+
+      <div id="content">
         INNEHÅLL.<br/>
         <br/>
         __________<br/>
         <br/>
         Sid. <br/>
         Inledning .........................................................   9<br/>
-        Allmänna iakttagelser .............................................	 29<br/>
+        Allmänna iakttagelser .............................................  29<br/>
         Soppor ............................................................  33<br/>
         Anrättningar till soppor ..........................................  51<br/>
         Hufvudrätter och mellanrätter .....................................  57<br/>
@@ -34,8 +52,7 @@
         Rättelser ......................................................... 272<br/>
         Annons.<br/>
         <br/>
-        
-        
-        
-    </body>
+      </div>
+    </div>
+  </body>
 </html>

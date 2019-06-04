@@ -1,0 +1,156 @@
+body {
+  margin: 0 auto;
+}
+
+#container {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #ecf0f1;
+    clear: both;
+}
+
+/* Navbar */
+nav {
+    float: left;
+    font-family: "Simplifica";
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    width: 170px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+    background-color: #white;
+}
+
+nav a:hover {
+    background-color: red;
+    background-color: #d4deef;
+}
+
+nav a.selected{
+    background-color: #d4deef;
+}
+
+/* Header and logo */
+#header {
+    text-align: center;
+    margin: 0;
+}
+
+#header a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    font-size: 2em;
+    padding: 30px;
+    font-family: "Simplifica";
+    font-size: 4em;
+}
+
+/* Main content */
+#content {
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    height: 100%;
+    background-color: #ecf0f1;
+}
+
+/* Column */
+
+.col-2 {
+    width: 49%;
+    display: inline-block;
+    padding: 3px;
+    margin: 0;
+    float: left;
+}
+
+@font-face {
+    font-family: 'Simplifica';
+    src: url('fonts/simplifica.woff2') format('woff2'),
+         url('fonts/simplifica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.grid-cell {
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+    margin: 1px;
+    border: 1px solid #ddd;
+}
+
+.grid-cell div {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.grid-cell:hover {
+    border: 1px solid #999;
+}
+
+.grid-cell a {
+    text-decoration: none;
+    color: black;
+}
+
+.grid-cell h1 {
+    text-align: center;
+    font-family: "Simplifica";
+    font-size: 1.6em;
+}
+
+.grid-cell img {
+    width: 100%;
+}
+
+/* Image small */
+.image-small img {
+    width: 80%;
+}
+
+.modal {
+    max-width: 80% !important;
+    width: 90%;
+    background: none !important;
+}
+
+.modal img {
+    width: 100%;
+}
+
+hr {
+    width: 25%;
+    height: 0,5px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 0,5px;
+    border-color: black;
+}

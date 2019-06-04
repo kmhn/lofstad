@@ -1,159 +1,48 @@
-<!DOCTYPE html>
-  <html>
-
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/my-style.css"></style>
+    <link rel="shortcut icon" type="image/png" href="imgs/fav.png"/>
+    <title>Ellen Asker: Läs avsnitt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      setSelected("#menu-3"); // set selected menu item
+      $(document).ready(function() {
+        var grid = [
+        	['imgs/tit_inledning.jpg', 'Inledning', 'html/kapitelsida_inledning.html'],
+            ['imgs/tit_allmänna.jpg', 'Allmänna iakttagelser', 'html/kapitelsida_allmänna.html'],
+            ['imgs/tit_soppor.jpg', 'Soppor', 'html/kapitelsida_soppor.html'],
+            ['imgs/tit_anrättningar.jpg', 'Anrättningar till soppor', 'html/kapitelsida_anrättningar.html'],
+            ['imgs/tit_huvochmel.jpg', 'Hufvudrätter och mellanrätter', 'html/kapitelsida_hufvudrätter.html'],
+        	['imgs/tit_såser.jpg', 'Såser', 'html/kapitelsida_såser.html'],
+        	['imgs/tit_grönsaker.jpg', 'Grönsaker', 'html/kapitelsida_grönsaker.html'],
+        	['imgs/tit_enklare.jpg', 'Enklare efterrätter som andrarätt', 'html/kapitelsida_enklare.html'],
+        	['imgs/tit_bakverk.jpg', 'Bakverk', 'html/kapitelsida_bakverk.html'],
+        	['imgs/tit_gröt.jpg', 'Gröt', 'html/kapitelsida_gröt.html'],
+        	['imgs/tit_drycker.jpg', 'Drycker', 'html/kapitelsida_drycker.html'],
+        	['imgs/tit_inlägg.jpg', 'Inläggningar och kompotter', 'html/kapitelsida_inläggningar.html'],
+        	['imgs/tit_matsedlar.jpg', 'Matsedlar för en månad', 'html/kapitelsida_matsedlar.html'],
+        	['imgs/tit_exfest.jpg', 'Exempel på festmiddagar', 'html/kapitelsida_exempel.html'],
+        	['imgs/tit_julmat.jpg', 'Julmat', 'html/kapitelsida_julmat.html'],
+        ];
+        loadGrid(grid);
+        console.log(window.history);
+      });
+
+    </script>
   </head>
-<body>
 
+  <body>
+    <div id="container">
+      <!-- Header and navbar, loaded automatically -->
+      <div id="header"></div>
+      <nav id="nav"></nav>
 
-  <!-- nav -->
-  <div class="sidenav">
-    <a href="index.html">Om boken</a>
-    <a href="project.html">Projektet</a>
-    <a href="read.html" class="selected">Läs avsnitt</a>
-    <a href="extra.html">Extramaterial</a>
-  </div>
-
-  <!-- main> -->
-  <div class="main">
-    <h1>Ellen Askers Vegetariska Kokbok</h1>
-    <br>
-    <h2 id="chapter">Läs utdrag genom att klicka på bilderna</h2>
-    <br>
-    <p>
-    Ladda ned XML-kod<br>
-	Ladda ned bilder i PDF
-</p>
-
-<div class="gallery">
-  <a target="_blank" href="./html/kapitelsida_1.html">
-    <img src="./img/tit_inledning.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Inledning</div>
-</div>
-
-
-
-<div class="gallery">
-  <a target="_blank" href="./html/00allmänna.html">
-    <img src="./img/tit_allmänna.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Allmänna iakttagelser</div>
-</div>
-
-
-
-<div class="gallery">
-  <a target="_blank"  <a target="_blank" href="./html/s35.html">
-    <img src="./img/tit_soppor.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Soppor</div>
-</div>
-
-
-
-<div class="gallery">
-  <a target="_blank" href="./html/s53.html">
-    <img src="./img/tit_anrättningar.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Anrättningar till soppor</div>
-</div>
-
-
-<div class="gallery">
-  <a target="_blank" href="./html/s59.html">
-    <img src="./img/tit_huvochmel.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Hufvudrätter och mellanrätter</div>
-</div>
-
-
-<div class="gallery">
-  <a target="_blank" href="./html/s111.html">
-    <img src="./img/tit_såser.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Såser</div>
-</div>
-
-
-<div class="gallery">
-  <a target="_blank" href="./html/s125.html">
-    <img src="./img/tit_grönsaker.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Grönsaker</div>
-</div>
-
-
-<div class="gallery">
-  <a target="_blank" href="./html/s143.html">
-    <img src="./img/tit_enklare.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Enklare efterrätter som andra rätt</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./html/s163.html">
-    <img src="./img/tit_finare.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Finare efterrätter</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./html/s177.html">
-    <img src="./img/tit_bakverk.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Bakverk</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./html/s193.html">
-    <img src="./img/tit_gröt.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Gröt</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./html/s199.html">
-    <img src="./img/tit_drycker.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Drycker</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./html/s203.html">
-    <img src="./img/tit_inlägg.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Inläggningar af kompott m.m.</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./html/s231.html">
-    <img src="./img/tit_matsedlar.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Matsedlar för en månad</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./html/s257.html">
-    <img src="./img/tit_exfest.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Exempel på festmiddagar</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="./html/s261.html">
-    <img src="./img/tit_julmat.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Julmat</div>
-</div>
-
-
-</div>
-
-
-  
-   
-</body>
+      <div id="content">
+        <!-- Grid added automatically -->  
+      </div>
+    </div>
+  </body>
+</html>
