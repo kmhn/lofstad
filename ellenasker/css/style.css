@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+font-family: "Courier New", Courier, monospace;
 }
 
 #container {
@@ -16,8 +17,7 @@ body {
 /* Navbar */
 nav {
     float: left;
-    font-family: "Simplifica";
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 nav ul {
@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav li {
-    width: 170px;
+    width: 200px;
     padding: 0;
     margin: 0;
 }
@@ -120,11 +120,11 @@ nav a.selected{
 
 .grid-cell h1 {
     text-align: center;
-    font-family: "Simplifica";
-    font-size: 1.6em;
+    /*font-family: "Simplifica";*/
+    font-size: 1.2em;
+    font-weight: normal;
 }
 
-/* Create thumb nails using http://makethumbnails.com/#dropzone */
 .grid-cell img {
     width: 100%;
 }
