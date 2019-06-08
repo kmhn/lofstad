@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ellen Askers Vegtariska kokbok </title>
+            <author role="content">Ellen Asker</author>
+            <author role="preface">C.F Asker</author>
+            <editor role="editor printed book">C.F Asker</editor>
+            
+            <respStmt>
+               <resp>Bokens ägare</resp>
+               <orgName>Östergötlands museum</orgName> 
+            </respStmt>
+            <respStmt>
+               <resp>transkription</resp>
+               <persName>Karolina Nilsson</persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-header och xml-kodning</resp>
+               <persName>Karolina Nilsson</persName>
+            </respStmt>
+            <principal>Karolina Nilsson</principal>
+         </titleStmt>
+         
+         <editionStmt>
+            <p>Första tryckta utgåva, <date when="1906">1906</date></p>
+            <p>Transkription för elektronisk text, <date when="2019">2019</date></p>
+         </editionStmt>
+         
+         <extent>
+            <measure type="pages">271</measure> 
+         </extent>
+         
+         <publicationStmt>
+            <publisher>
+               Karolina Nilsson 
+            </publisher>
+            <distributor>Högskolan i Borås, Bibliotek - och informationsvetenskap</distributor>
+            <address>
+               <name type="institution">Borås Högskola</name>
+               <street>Allégatan 1</street>
+               <postCode>503 32</postCode>
+               <name type="city">Borås</name>
+               <name type="country">Sverige</name>
+            </address>
+            <pubPlace>Norrköping</pubPlace>
+            <authority>Karolina Nilsson och Östergötlands museum</authority>
+            <date when="2019-03">Transkription, Mars 2019</date>
+            <availability status="restricted">
+               <p>Boken tillhör Löfstad Slott bibliotek och får ej flyttas.</p>
+               <p>Den elektroniska versionen finns ännu inte fritt tillgänglig.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Ellen Askers Vegetariska kokbok</title>
+                  <author role="content">Ellen Asker</author>
+                  <author role="preface">C.F Asker</author>   
+                  <imprint>
+                     <publisher>
+                        Stockholm A.-B. Sandbergs bokhandel  
+                     </publisher>
+                     <pubPlace>
+                        <address>
+                           <orgName>A.-B. Sandbergs bokhandel</orgName>
+                           <street>Hörnet Sturegatan Humlegårdsgatan</street>
+                           <settlement>Stockholm</settlement>
+                           <country>Sverige</country>
+                        </address> 
+                        <idno>Objektet saknar identifikationsnummer</idno>
+                     </pubPlace>  
+                     <date when="1906">1906</date>
+                  </imprint>
+               </monogr>
+               <note>
+                  <stamp>
+                     Stämpel på titelsidan:Löfstad slott bibliotek
+                  </stamp>
+                  <p>Rubriker i rött</p>
+               </note>
+               <relatedItem>
+                  <bibl>Boken finns i fysisk form på Löfstad slotts bibliotek, Östergötland</bibl>
+               </relatedItem>
+            </biblStruct>
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         
+         <projectDesc>
+            <p>Inlämningsuppgift, 32LDK1 VT19-1</p>
+            <p>Transkription: OCR genom Abbby Fine Reader och www.online-ocr.net</p>
+            <p>Fotografering av faksimil: Canon 1100D, 50mm objektiv</p>
+            <p>Boken är del av boksamling i Löfstad slotts bibliotek, Östergötland</p>
+            <p>Bildupplösning: 300dpi</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Uppenbara fel markeras med <gi>sic</gi></p>
+            </correction>
+            <hyphenation>
+               <p>Bindestreck,avstavningar  och radbrytningar görs så som de ser ut i orginaltexten</p>
+            </hyphenation>
+            <interpretation>
+               <p>Vid inkonsekvent användning av citationstecken görs inga ändringar.</p>
+            </interpretation>
+            <ab>I de fall det är möjligt finns länkar till vidareläsning om personer nämnda i texten.</ab>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="lcsh">
+               <bibl>Library of Congress Subject Headings</bibl>
+            </taxonomy>
+            <taxonomy xml:id="lc">
+               <bibl>Library of Congress Classification</bibl>
+            </taxonomy>
+            <taxonomy xml:id="libris">
+               <bibl>Libris ID</bibl>
+            </taxonomy>
+            <taxonomy xml:id="DDC">
+               <bibl>Dewey Decimal Classification</bibl>
+            </taxonomy>
+            <taxonomy xml:id="SAB">
+               <bibl>SAB-id</bibl>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      
+      <profileDesc>
+         <creation>
+            <placeName>Askersbo, Djursholm</placeName>
+            <date when="1906">1906</date>
+         </creation>
+         <langUsage>
+            <language ident="sv">Svenska</language> 
+         </langUsage>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list>
+                  <item>Vegetarian cooking</item>
+               </list>
+            </keywords>
+            <classCode scheme="#lc">TX837-TX838</classCode>
+            <classCode scheme="#libris">1611495</classCode>
+            <classCode scheme="#DDC">641.303</classCode>
+            <classCode scheme="#SAB">Qcabc kssb/7</classCode>
+         </textClass>
+      </profileDesc>
+      
+      <revisionDesc>
+         <change when="2019-04-02">
+            <persName>Karolina Nilsson</persName>
+            skapade TEI-header för denna text
+         </change>
+         <change when="2019-04-05">
+            <persName>Karolina Nilsson</persName> transkriberade <title>Ellen Askers vegetariska kokbok</title>
+         </change>
+      </revisionDesc>
+      
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter"> <!-- ska man skriva ut kaptielnamn? -->
+        
+            <pb n="" /> <!-- sidnummer saknas -->
+            <head type="chapter-title">INLEDNING</head>
+               <p>Det är nu snart tio år sedan jag som sista
+                  försök till räddning undan sjukdom och död be-
+                  stämde mig för att blifva vegetarian. Jag hade för-
+                  sökt allt, från medicin till blodbildande medel och
+                  piller af diverse slag, ja till och med de så an-
+                  nonserade elektriska apparaterna, allt utan resul-
+                  tat. Jag befann mig i ett fruktansvärdt tillstånd.
+                  Min sjukdom, som jag kände inom mig långt
+                  innan den bröt ut, hade förmått mig lämna den
+                  bana jag valt och älskade: sjömannens, och mig
+                  återstod knappast annat än sträcka gevär.</p>
+               <p>Men hela mitt inre uppreste sig däremot, och
+                  jag beslöt, kosta hvad det ville, bryta mig igenom
+                  sjukdomseländet eller stupa på kuppen.</p>
+               <p>Om vegetarismen visste jag intet och den var
+                  då så godt som okänd i Sverige.</p> 
+         
+         
+       
+            <pb n="10"/>
+            <fw type="header">10 INLEDNING </fw>
+               <p>Vid genomgången af en radikal hästkur nere
+                  i <placeName>Wörishofen</placeName>, gamla <persName ref="https://de.wikipedia.org/wiki/Sebastian_Kneipp">Pfarrer Kneipps</persName> kurort, träf-
+                  fade jag samman med några vegetarianer, som
+                  höllo före att min enda räddning vore deras lära.</p>
+               <p>Allt nog! Beslutet var fattadt och det gällde
+                  nu att sätta sig in i frågan, men det var lättare
+                  tänkt än gjordt. Jag läste, min hustru lagade,
+                  var undrande, ledsen och orolig, alldenstund våra
+                  vänner naturligen afrådde henne att vara mig be-
+                  hjälplig att taga lifvet af mig själf och hela fa-
+                  miljen med sådana galenskaper. </p>
+               <p> Ej bättre var ställningen i köket där order
+                  och kontraorder omväxlade.</p>
+               <p>Det är ingalunda lätt att läsa sig tillrätta i
+                  den digra vegetariska litteraturen, där motsägel-
+                  serna äro allmänna, beroende på att välmenande
+                  människor, hvilka vunnit förbättring, i förtjusnin-
+                  gen däröfver nedskrifvit sina erfarenheter innan
+                  de haft hela innebörden klar för sig.</p>
+               <p> Litteratur saknades ingalunda, hvilket framgår
+                  däraf, att, oaktadt en hel del gått direkt i pap-
+                  perskorgen, har jag ännu i behåll cirka 5 meter
+                  bokhyllelängd af den varan, däraf högst en tion-
+                  del torde vara värd gömma.</p>
+               <p><persName>Justus’</persName> böcker voro de första och de hjälpte
+                  mig en bit på väg, tack vare deras entusiasm
+                  och förhoppningsfullhet, egenskaper hvilka jag</p>
+         
+         
+         
+           
+            <pb n="11"/>
+            <fw type="header">11 INLEDNING </fw>
+               <p> just då var i stort behof af. Han har, ehuru endast
+                  lekman, trängt djupt i ämnet.</p>
+               <p>Efter nio veckors vistelse hos doktor HeinrichLahmann på hans
+                  världsberömda sanatorium <placeName ref="https://sv.wikipedia.org/wiki/Weisser_Hirsch">Weis-ser Hirsh</placeName> vid <placeName>Dresden</placeName>
+                  våren <date when="1899">1899</date> började detemellertid att något
+                  klarna.</p>
+               <p>Grundtanken i <persName ref="https://sv.wikipedia.org/wiki/Heinrich_Lahmann">Lahmanns</persName> dietlära är knappast
+                  hans egen utan <persName>Julius Henschels</persName>, som bevisat sina
+                  åsikter angående mineralämnenas betydelse för
+                  växter, djur och människor i talrika skrifter, hvaraf
+                  det stora verket <name type="booktitle">»Das Leben»</name> utkom i 2:dra upp-
+                  lagan <date when="1890">1890</date>. Med denna upplysning är ingalunda
+                  min mening att förringa <persName>Lahmanns</persName> förtjänster.
+                  Tvärtom kunna de ej nog framhållas, ty han har
+                  genom att systematisera och bringa till praktisk
+                  tillämpning Henschels teorier åstadkommit, man
+                  kan säga, ända till underverk med flera af sina
+                  numera nästan otaliga patienter, hvilka sedan i
+                  sin ordning spridt mästarens åsikter öfver världen.</p>
+               <p>Äfven <persName>Lahmann</persName> har skrifvit mycket och kan
+                  hans bok <name type="booktitle" ref="https://portal.dnb.de/opac.htm;jsessionid=0OJpyl_lZVRgaT7B0c1mrLCGJH27MVvMgBv9Ir0N.prod-fly9?method=showFullRecord&amp;currentResultId=%22117573760%22%26any&amp;currentPosition=1">Dysämi</name> knappast nog varmt rekommen-
+                  deras.</p>
+               <p>Den finnes sedan länge förtjänstfullt öfver-
+                  satt till svenska af doktor <persName>Henrik Berg</persName>. Boken
+                  bör, som <persName>Lahmann</persName> betonar, ej blott läsas utan
+                  studeras, och den som så gjort, får helt visst ny
+                  syn på saken i flere afseenden.</p>
+        
+         
+       
+            <pb n="12"/>
+            <fw type="header">12 INLEDNING</fw>
+               <p> Nästa urkundsförfattare i den vegetariska ve- tenskapen är den
+                  engelske med. doktorn och lä- karen vid K. Hospitalen i
+                  <placeName>London</placeName>
+                  <persName>Alexander Haig</persName>, som med anledning af svåra egna
+                  lidanden kom till vegetarismen och fick där först lindring och 
+                  sedan bot. Hans stora verk i detta ämne <name type="booktitle" ref="https://books.google.se/books?id=c3jhswEACAAJ&amp;dq=alexander+haig+uric+acid&amp;hl=sv&amp;sa=X&amp;ved=0ahUKEwiNzaLP1YniAhVGaJoKHZ7cCNUQ6AEILzAB"><sic> Uric</sic> 
+                     Acide</name> utkom <date when="1892">1892</date> och finnes öfversatt till tyskan 
+                  liksom ett mindre arbete,<name type="booktitle" ref="https://books.google.se/books?id=2I4YAAAAYAAJ&amp;dq=alexander%20haig%20diet%20and%20food&amp;hl=sv&amp;source=gbs_book_other_versions">Diat and food</name>, numera 
+                  jämväl öfversatt till svenska. Det förra kan knap-
+                  past rekommenderas till andra än läkaren eller 
+                  möjligen den som långt avancerat i dessa studier, 
+                  men det senare lämnar däremot god praktisk led- 
+                  ning i dietfrågan.</p>
+               <p><persName>Haigs</persName> experiment äro synnerligen intres-
+                  santa och han bevisar genom dem tydligt att ej
+                  allenast animal föda utan jämväl en del vegeta-
+                  bila födoämnen, hvaraf baljväxterna äro de för-
+                  nämsta, lämna gifter och recidier i kroppen i form
+                  af urinsyra m. m. Dessa främmande ämnen, som
+                  cirkulera i blodet och afsätta sig i väfnaderna, äro
+                  grundorsakerna till sjukdomarne och gifva sig tyd-
+                  ligast tillkänna i sten, gikt och reumatism. Haig
+                  har, sedan han blef frisk, gjort omfattande diet-
+                  experiment med sig själf och påvisar genom dem
+                  att hvarje gång han återgått till den blandade födan,
+                  hafva de gamla symptomerna efter någon tid åter-
+                  kommit.</p>     
+         
+         
+        
+            <pb n="13"/>
+            <fw type="header">13 INLEDNING</fw>
+               <p>Ett namn slutligen, som gjort sig mycket för- 
+                  tjänt af uppmärksamhet inom den vegetariska 
+                  frågan och som sålunda bör omnämnas, är den
+                  amerikanske doktorn <persName ref="https://sv.wikipedia.org/wiki/John_Harvey_Kellogg">J. H. Kellogg</persName>. Han är 
+                  skapare såväl till det likaledes världsberömda  
+                  sanatoriet Battle Creak i <placeName>Amerika</placeName> som ock till
+                  flera liknande sanatorier på andra ställen. Kel- 
+                  logg har äfven anlagt fabriker för tillverkning
+                  af vegetariska födoämnen, hufvudsakligen afse- 
+                  ende att genom maltningsprocesser göra nötter 
+                  och sädesslag mera lättsmälta. Som dessa prepa- 
+                  rater ställa sig dyra i förhållande till grundämnena, 
+                  och då de dessutom äro obehöfliga i en rätt ord- 
+                  nad vegetarisk matordning, begagna vi dem ej, 
+                  Kellogg har emellertid nedlagt betydande förtjänst 
+                  genom att ordna goda vegetariska restauranter 
+                  för mindre bemedlade och lära de dess bättre vara 
+                  omtyckta. Detta manar till efterföljd.</p>
+               <p>Flera andra namn kunde vara att nämna; men
+                  utan att vilja förringa deras betydelse måste jag
+                  förbigå dem, alldenstund det annars skulle föra
+                  mig för långt här i inledningen till en kokbok.
+                  Det är emellertid ej nog att veta, hvad man skall
+                  äta och huru detta skall tillagas, man måste jäm-
+                  väl göra klart för sig, när och huru mycket man
+                  bör äta. För att få klarhet i det afseendet, re-
+                  kommenderar jag den amerikanske läkaren <persName ref="https://en.wikipedia.org/wiki/Edward_H._Dewey">Edward</persName></p>
+         
+         
+      
+            <pb n="14"/>
+            <fw type="header">14 INLEDNING</fw> 
+               <p><persName> Hooker Deweys</persName> bok <name type="booktitle" ref="https://archive.org/details/truescienceofliv00dewerich/page/n4">»The new gospel of health»</name>,
+                  öfversatt till svenska under namn af Helsans
+                  Evangelium.</p>
+               <p><persName>Dewey</persName>påvisar däri huru han endast genom 
+                  att inskränka måltidernas antal till två per dygn 
+                  utan några som helst mellanmål, icke ens frukt, 
+                  kommit till förvånansvärda resultat. Det framgår 
+                  af innehållet, att han icke haft kännedom om vege- 
+                  tarismen, då han skref boken, men har vakansen 
+                  i det afseendet blifvit kompletterad af Charles C. 
+                  Haskell i <name type="booktitle" ref="https://archive.org/details/b28095510/page/n43">»Perfect Health» »How to get it and 
+                     how to keep it»</name>, som utkom <date when="1903">1903</date>.</p>
+               <p>Sedan jag nu angifvit de enligt mitt förme-
+                  nande förnämsta källorna till kunskap i den vege-
+                  tariska frågan, öfverlämnar jag till den, som det
+                  önskar, att forska vidare, och vill sålunda endast
+                  framhålla att Ni finner resultatet af mitt sökande
+                  i praktiken tillämpadt af min hustru i denna kok-
+                  bok, hvars föreskrifter Ni lugnt kan följa, då den
+                  innehåller en diet, som ej endast hjälpt mig och
+                  de mina, utan jämväl många andra.</p>
+               <p>Orsaken att den just nu utgifves, är tvåfaldig.
+                  Den första att min hustru därmed vill på en gång
+                  och i ett sammanfattadt helt besvara de numera
+                  allt oftare återkommande förfrågningarna i ämnet
+                  och den andra de undervisningskurser i vegetarisk
+                  matlagning, som förra året började i vårt land.</p>      
+         
+         
+     
+          <pb n="15"/>
+            <fw type="header">15 INLEDNING</fw> 
+               <p>Den lära, som i dem meddelas, härstammar 
+                  från <persName>Kellogg</persName> i <placeName>Amerika</placeName>. Den har sedan öfver 
+                  Danmark kommit till oss. Jag vill emellertid på 
+                  det allvarsammaste betona, huru underligt det än 
+                  först kan låta, att en diet, som gifvit godt resultat 
+                  i <placeName>Amerika</placeName>, ej med säkerhet kommer att gifva lika
+                  godt resultat här. Man måste nämligen komma 
+                  ihåg, att den vegetariska dieten i första hand är
+                  beroende af att de alster från växtvärlden, som 
+                  användas till föda, äro fullvärdiga, och i det af-
+                  seendet lämnar såväl åkerbruket som särskildt träd-
+                  gårdsskötseln i vårt land ännu mycket öfrigt 
+                  att önska. Jag åsyftar härmed den så viktiga mineral-
+                  gödningen, som trots de senare årens betydande 
+                  framsteg i det afseendet dock alltjämt är otillräck-
+                  lig, isynnerhet hvad natrongödningen angår. Vi 
+                  måste komma ihåg, dels att <placeName>Amerika</placeName> har flera år-
+                  hundradens kortare kultur än vi och dels att stora 
+                  vidder nybruten mark årligen där upptagas till 
+                  odling samt slutligen att tillgången på billig frukt 
+                  är där helt annan än hos oss.</p> 
+               
+                  <p>Af det sagda framgår, att en vegetarisk kok-
+                  bok måste vara skrifven med kännedom om 
+                  dessa förhållanden, ty innehåller ej växterna sina rätta 
+                  beståndsdelar, kan ju ej heller människan genom 
+                  dem få hvad hon behöfver.</p> 
+        
+         
+    
+             <pb n="16"/>
+            <fw type="header">16 INLEDNING</fw> 
+                  <p>Jag betonar, att detta faktum ej får frånses, 
+                  därest man skall kunna komma till godt resultat. 
+                  På den grund måste man tillsätta de när-
+                  saltfattiga födoämnena med närsaltextrakt. 
+                  Vi använda Lahmanns närsaltextrakt, närsalt-
+                  cacao och närsaltchokolade, men torde dessa varor 
+                  lika bra kunna tillverkas inom landet.</p> 
+                  <p>Jag har nu sökt klargöra den vegetariska frå-
+                  gan sådan jag uppfattat den, och vet att den håller 
+                  streck. </p>
+                  <p>Skulle Ni nu af en eller annan anledning be-
+                  stämma Eder för att öfvergå till vegetariskt lef-
+                  nadssätt, hvilket jag anser mig ej kunna nog varmt 
+                  rekommendera, vill jag betona, att det ej kan ske 
+                  i en handvändning. </p>
+                  <p>Lika litet som man bör på en gång 
+                  fråntaga drinkaren brännvinet, lika litet bör dietförändrin-
+                  gen ske brådstörtadt. </p>
+                  <p>Ni kommer sannolikt att under öfvergångs-
+                  tiden allt emellanåt känna åtrå efter kött och kanske 
+                  särskildt efter salt föda ; men så småningom för-
+                  svinna dessa begär och Ni kommer då att njuta 
+                  af den vegetariska födan som aldrig förut af den 
+                  blandade. </p>
+               
+                  <p>Särskildt beder jag få framhålla betydelsen af 
+                  en öfvergång med tanke på barnen. Tvinga åtmin-</p>
+        
+        
+    
+           <pb n="17"/>
+            <fw type="header">17 INLEDNING</fw> 
+                  <p>stone icke barnen att äta animal föda, som så ofta 
+                  händer.</p>
+                  <p>Man vill så gärna göra gällande, att vår tids 
+                  oro och nervositet kommer af det jäktande lifvet. 
+                  Jag tror man kommer sanningen närmare om man 
+                  säger att oron och nervositeten finnes inom nu-
+                  tidens människor på grund af deras felaktiga sätt 
+                  att lefva och särskildt att föda sig. Och detta 
+                  gäller sorgligt nog lika mycket landsbygden 
+                  som städerna, den rike som den fattige. Jag går så 
+                  långt, att jag anser att kaffet med dopp af finbröd 
+                  numera åstadkommer mera skada än brännvinet, 
+                  i det att kaffet först ödelägger mödrarna och ge-
+                  nom dem barnen <note n="1" place="bottom">*</note>.</p>
+                  <p>Att dessa frågor behöva ägnas större upp-
+                  märksamhet än hittills tyda många tecken på. 
+                  Bland annat har just i dessa dagar ett talande 
+                  bevis gått genom pressen, förmälande att af årets 
+                  beväring icke mindre än 99 procent haft skadade 
+                  tänder, och öfver 11 procent till den grad, att de 
+                  måst till krigstjänst kasseras.</p>
+                  <p>Det måste hafva någon orsak, och den är:
+                  mineralfattig, olämplig föda, isynnerhet underhal-
+                  tigt bröd.</p>
+                  
+                  <p>__________
+                     * Sedan detta lagts i tryck finner jag att samma åsikt här-
+                     utinnan blifvit framhållen af en provinsialläkare i hans nyss 
+                     afgifna årsrapport. 
+                  
+                  <note n="allmänna iakttagelser nr 2" place="bottom">2</note>
+                  </p>
+        
+         
+
+            <pb n="18"/>
+            <fw type="header">18 INLEDNING</fw> 
+                     <p>Det finnes väl ingen husmor, som ej vill 
+                     gifva de sina det bästa och nyttigaste. 
+                     För dem, som kunna gifva hvad de vilja, gäller
+                     således endast att veta hvad som är det bästa. 
+                     Den vegetariska frågan upptages på senare 
+                     tider allt oftare till diskussion. Kanske att det 
+                     sker särskildt ofta med mig därför att mina åsikter 
+                     därom äro tämligen allmänt kända. </p> 
+                     <p>Det är då nästan alltid samma frågor, utom 
+                     den huru man skall bära sig åt, som återkomma, 
+                     nämligen : Huru går det med sällskapslifvet, med 
+                     tjänstefolket och med barnen, då de skola ut i 
+                     lifvet?</p> 
+                     <p>Sällskapslifvet beror ju delvis på Eder 
+                     ställning i lifvet. Det var för några år sedan en 
+                     högt stående person i samhället, som lefde mycket 
+                     med. Han sökte hos en specialist hjälp för sin för-
+                     störda mage, fick föreskrifter och sade : <quote>»Men med 
+                     min ställning kan jag icke föra ett sådant lef-
+                     nadssätt».</quote> Svaret lydde : <quote>»Sköt Eder ställning, men 
+                     klaga då ej på dålig mage.»</quote> Bör och behöfver 
+                     sällskapslifvet ställa sådana kraf på individen ? 
+                     Hvarje reform bör ske uppifrån, och de högst stå-
+                     ende böra inse sitt ansvar härutinnan.</p>  
+                     <p>Rår Ni däremot Eder själf och umgås med 
+                     Edra vänner efter behag, kan Ni ju, om Ni så vill, 
+                     till Eder vegetariska mat för deras skull foga en </p>
+         
+         
+       
+            <pb n="19"/>
+            <fw type="header">19 INLEDNING</fw>
+                     <p>kött- eller fiskrätt och är Ni själf borta, finnes ju  
+                     i allmänhet numera så mycket grönsaker och fram- 
+                     förallt frukt, att Ni får alldeles tillräckligt.  
+                     Hvad tjänarne beträffa, hafva de alltid efter  
+                     någon tid föredragit att få samma mat som vi;  
+                     men man måste komma ihåg att gifva dem all- 
+                     deles detsamma, och ej, som jag sport på en del  
+                     ställen, att särskild vegetarisk mat lagas för dem,  
+                     ty då kommer denna lätt att bestå hufvudsakligen  
+                     af närsaltfattig mjölmat, hvarpå ingen kan i läng- 
+                     den existera. </p>
+                     <p> Frågan om barnen anhåller jag få besvara  
+                     med ett citat ur ett nyss ankommet bref från min  
+                        äldste son i <placeName>Kina</placeName>. </p>
+                     <p><quote>»Här är nu åter full sommar och värmen är  
+                     stundom tryckande. De flesta af mina kolleger  
+                     stöna och pusta, dricka iskyldt beer och whisky  
+                     and soda samt finna tillvaron högst besvärlig. Själf  
+                     befinner jag mig, såsom alltid, i högönsklig väl- 
+                     måga. Om man, när solen står som högst, söker  
+                     svalka sig med biffstek och porter, är det ju mindre  
+                     underligt om resultatet blir en smula nedslå- 
+                     ende. Själf tager jag vid sådana tillfällen min  
+                     tillflykt till de härliga ananas, bananer, mangoes  
+                     och persikor såsom piece de resistance — och re- 
+                     sultaten, ja, de äro så påtagliga, att de utesluta  
+                     hvarje tvifvel på den rätta vegetarismens riktig-</quote></p>
+         
+       
+     
+            <pb n="20"/>
+            <fw type="header">20 INLEDNING</fw>
+               <p><quote>het. — Klarhet i knoppen, arbetslust och lifsglädje,  
+               en balans i kropp och själ, som förvandlar arbets- 
+               bördan till sport för hjärnan —» </quote> 
+               Liknande uttalar sig min dotter, som nu  
+               är i England på andra året.</p>
+               <p><quote>»Ja, men Ni äta i alla fall kött?»</quote> tillfrågas  
+               jag vidare. </p>
+               <p>Vi äta sedan flera år i vårt hem ej annan animal  
+               föda än den kvantitet ägg, smör, mjölk och  
+               grädde, som ingår i matlagningen, och ej heller 
+               på resor, då vi råda oss själfva. Äro vi borta,  
+               lämpa vi oss naturligtvis efter omständigheterna;  
+               man behöfver ju icke demonstrera hvarken i det  
+               afseendet eller med hänseende till vin, det vore  
+               ju att fästa för mycken uppmärksamhet vid sin  
+               person. </p>
+               <p>Ehuru jag anser det själfklart, vill jag särskildt  
+               betona, att vi lefva alldeles som vi lära.  
+               På senare åren har uppstått en åsikt, som  
+               jag ibland hör förfäktas, nämligen att människan  
+               skall lefva nästan uteslutande af nötter och frukt.  
+               Den härstammar från en engelsk-amerikansk lä- 
+               kare, Emmet Densmor, som utgifvit en diger bok  
+               därom, hvari han förmäler sig kommit till dessa  
+               åsikter på grund af dåligt resultat med vegetarisk </p>
+         
+         
+       
+            <pb n="21"/>
+            <fw type="header">21 INLEDNING</fw>
+               <p>diet. Som öfvergång förordar han Salisburys
+               gamla kur med kött och hett vatten. Mannen 
+               hade helt säkert left på närsaltfattig, underhaltig 
+               vegetarisk kost, och med hans nya funderingar 
+               gick det som det skulle gå, enligt naturens ord-
+               ning: han dog på kuppen, antagligen redan innan 
+               han hunnit sluta öfvergångsdieten.</p>
+               <p>För öfrigt må nötter och frukt vara hur bra 
+               som helst; men då jag har förmånen vara svensk 
+               och en sådan dietlära skulle föra till mitt lands 
+               undergång, vill j.ag ej medverka därtill. Däremot 
+               kan en förstklassig vegetarisk diet hållas i vårt 
+               härliga land utan att importera någonting, om detta 
+               skulle vara önskvärdt.</p> 
+               <p>Kunskap är makt, men fanatism bevisar okun-
+               nighet.</p>
+               <p>Här en liten historia, som hände mig för 
+               några år sedan.</p> 
+               <p>Jag var uppe hos en familj i Norrland, bestå-
+               ende af föräldrarne och flera barn. </p>
+               <p>Af föräldrarna voro, som så ofta händer vid 
+               felaktig diet, den ene tjock som en tunna, den 
+               andre mager som en skrika. Barnen voro jämväl 
+               blandade med hänseende till hullet, men alla hvit-
+               blaffiga.</p> 
+               <p>Mig till ära förekom jämväl goda vegetariska</p>
+            
+         
+         
+       
+            <pb n="22"/>
+            <fw type="header">22 INLEDNING</fw>
+               <p>rätter, och på bordet tronade tvenne stora frukt-
+               skålar. Före maten fingo barnen diverse droppar 
+               och piller, för de hade <quote>»blodbrist och klena ma-
+               gar»</quote>, som deras mamma upplyste mig om. Döm 
+               om min öfverraskning, då vi kommo till frukten 
+               och värdinnan bad mig hålla tillgodo <quote>»för ser kap-
+               ten, hv.arken min man eller jag hafva någonsin 
+               tålt frukt, och nog är det märkvärdigt att heller 
+               intet af barnen tål frukt»</quote>. Jaså, tänkte jag, kan 
+               det vara märkvärdigt att barnen äro i samma då-
+               liga skick som föräldrarna, då dessa så litet förstå 
+               sig på att förbättra dem.</p> 
+               <p>Efter middagen kommo vi i resonnemang om 
+               dessa saker, och sedan jag sökt förklara mig, frå-
+               gade värdinnan:<quote>»livad skulle kapten göra med 
+               Clara för hennes bleksot?»</quote>  — Clara var äldsta bar-
+               net. —<quote>»Jag skulle gifva henne närsaltrik, urin-
+               syrefri föda, så försvinner bleksolen»</quote>, svarade jag. 
+               Två år senare kom jag tillbaka och fann fa-
+               miljen åtminstone ej bättre, men jag blef något 
+               häpen, då modern efter middagen sade:<quote>»Clara 
+               försökte verkligen med det där närsaltet, och hon 
+               åt upp nästan två burkar, men sedan blef hon så 
+               sjuk af det, att hon ej kunde fortsätta.»</quote>  
+               Hfvad menas med att hon åt upp två burkar? 
+               Jo, hon tog en half tesked före hvarje mål. <quote>»Ja,</quote></p>
+               
+         
+            <pb n="23"/>
+            <fw type="header">23 INLEDNING</fw>
+               <p>då undrar jag verkligen ej på, att hon blef sjuk. 
+               Hon skulle haft högst en ärtas storlek tillsatt hvarje 
+               portion närsaltfattig kost. Man kan då åtminstone 
+               ej vara nog tydlig, tänkte jag.</p> 
+               <p>Det därpå följande samtalet hade till följd, 
+               att mamma och pappa med Clara reste till Weisser 
+               Hirsch, hvarifrån de efter tre månader återkommo. 
+               Tunnan hade minskat i omfång, skrikan hade 
+               börjat få hull, och Clara visade lofvande tecken till 
+               att blifva en spirande rosenknopp. Men det bästa 
+               af allt var att mamma fått lära, hvad människo-
+               föda bör bestå af och att tillaga den, någonting 
+               som hon vid 35 års ålder och 16 års äktenskap 
+               ej haft aning om. Pilleraskarna och droppflaskorna 
+               kastades ut, och med all säkerhet får Sverige på 
+               kuppen om några år af småttingarne en uppsätt-
+               ning raska unga män och kvinnor. Jag har ibland 
+               en vänlig biljett, af hvilken tydligen framgår, att 
+               där är solsken i det hemmet, äfven när det är kulet 
+               ute. <quote>»Nu har frukten åtgång»</quote>, stod det i sista 
+               brefvet.</p> 
+               <p>Ännu ett ofta återkommande uttalande anser 
+               mig böra besvara.</p> 
+               <p>Så länge särskildt mitt och äfven två af barnens 
+               lifshjul rullade så att säga på grafkanten, så man 
+               ej kunde afgöra hvilken kosa det skulle taga, och 
+               vi sågo genomeländiga ut, löd det:</p> 
+            
+         
+         
+    
+            <pb n="24"/>
+            <fw type="header">24 INLEDNING</fw>
+               <p><quote>»De där åsikterna bära då syn för sägen.»</quote></p> 
+               <p>Nu, då resultaten ej längre kunna förnekas,  
+               heter det:</p> 
+               <p><quote>»Ja, det där passade dem, men det passar  
+               därför ej säkert andra. Det är naturligtvis indivi- 
+               duellt.»</quote></p> 
+               <p>Nej, mina läsare, naturens lagar låta ej tumma  
+               sig, dem måste allt och alla lyda.</p> 
+               <p>Jag har därmed ej sagt, att hvarje sjukling  
+               kan botas genom vegetarisk diet. Att påstå det,  
+               vore en utopi, alldenstund ingen är odödlig. Till- 
+               frisknandet beror i första hand på lifskraften och  
+               därnäst på huru Ni förstår att understödja och på- 
+               verka densamma genom naturliga medel.</p> 
+               <p>Bland dessa naturliga medel är dieten det vik- 
+               tigaste, och utan den kommer Ni ej till varaktigt resultat.  
+               Huru den skötes och sålunda i hvad mån Ni  
+               kan arbeta Eder upp, beror på husmodern, och i  
+               det afseendet gifver jag Eder rätt, att jag och 
+               mina barn varit sällsynt individuellt lyckligt lottade.  
+               <persName>Kejsar Wilhelm</persName> hade ett yttrande, som nog är  
+               kändt, nämligen : <quote>»Vi tyskar behöfva en kraftig  
+               nation.»</quote></p>
+         
+         
+  
+            <pb n="25"/>
+            <fw type="header">25 INLEDNING</fw>
+               <p>Det behofvet gäller ändå mera oss, nutida 
+               svenskar.</p> 
+               <p>Om vi skola blifva det, beror till största delen 
+               af huru våra husmödrar förstå att gifva oss en 
+               närsaltrik, i möjligaste mån urinsyrefri föda, och 
+               det sträfvandet har min hustru velat underhjälpa 
+               med sin kokbok.</p> 
+               <p>Att den rätta vegetariska kosten verkligen för-
+               länar uthållighet, kraft och energi, vill jag härmed 
+               lämna ett par tydliga officiella exempel på. 
+               Distansgången Dresden—Berlin den 21 maj 
+               1902. Distans 202 km. 34 anmälda. 32 startade 
+               och af dessa framgingo till målet 13, af hvilka 
+               n:ris 1, 2, 3, 4, 5, 6, 9, 10, 11 och 12 voro vege-
+               tarianer och n :ris 7, 8 och 13 lefde på blandad 
+               kost.</p> 
+               <p>N:r 1 <persName>Karl Mann</persName> gick på 26 timmar och 58 
+               minuter. Vidare bör antecknas att n :r 9 <persName>G. Gahde</persName> 
+               var 59 år gammal och hade sedan 38 års ålder
+               varit vegetarian, och gick han de 202 km. på 39 
+               timmar och 58 m. Vädret var vid täflingarna syn-
+               nerligen olämpligt, kallt, blåsigt och regnigt. 
+               I Distansgången vid <placeName>Frankfurt</placeName> den 1 juli 1906 
+               startade 33, däraf 15 vegetarianer och 18 andra. 
+               Distans 100 km. Första priset blef oafgjordt, i 
+               det herrar <persName>Rath</persName> och <persName>Wilhelm</persName>, hvaraf den förre 
+               är vegetarian, ej kunde skiljas, utan inkommo sam-</p>
+         
+         
+
+            <pb n="26"/>
+            <fw type="header">26 INLEDNING</fw>
+               <p>tidigt, med en gångtid af 11 timmar, 36 minuter 
+               och 27 sekunder.</p> 
+               <p>Hvarefter n :ris 3, 4, 5, 6, 7, 8, 12, 13 och 14 
+               voro vegetarianer och endast 9, 10 och 11 
+               lefde på blandad kost.</p> 
+               <p>N:r 14, den siste som kom fram inom maximi-
+               tiden, hade en gångtid af 13 timmar och 20 min. 
+               Sammanlagdt passerades målet af 20 täflande, 
+               däraf 13 vegetarianer, hvadan sålunda endast två 
+               af dem stannade på vägen, under det att af de 
+               18 andra endast 7 passerade målet. Dessa resul-
+               tat äro numera allmänna.</p> 
+               <p>Det torde ej vara förmätet säga, att resultaten 
+               tala för sig själfva, och kan man därtill lägga, att 
+               nuvarande vegetarianer som regel blifvit det på 
+               grund af sjukdom.</p> 
+               <p>Till hvilka resultat bör man då ej komma med 
+               en riktig vegetarisk diet redan från början? 
+               När vi numera efter dagens arbete samlas 
+               omkring vårt middagsbord och jag tänker på bar-
+               nen, både de hemmavarande och de, som redan 
+               lämnat hemmet, och i minnet genomgår de tio 
+               sista årens sträfvanden, då fylles mitt hjärta af 
+               tacksamhet vid jämförelsen mellan då och nu 
+               och jag känner som en bjudande plikt att öppna 
+               för andra vägen till den lycka, som kommit på</p> 
+         
+         
+
+            <pb n="27"/>
+            <fw type="header">27 INLEDNING</fw>
+               <p>vår lott, men det oaktadt vill jag på det bestäm-
+                  daste framhålla att framgången i detta afseende 
+               är som öfverallt annars beroende af att Ni för-
+               står hvad Ni gör.</p> 
+               <p><placeName>Askersbo, Djursholm,</placeName> oktober 1906.
+               <persName role="editor">C. F. Asker.</persName></p> 
+            
+<div type="line"><p>---------------</p></div>
+         
+           
+        </div>
+        <div type="chapter">
+        
+              <pb n=""/><!-- sidnummer saknas -->
+              <!--  <opener facs="page header"></opener>-->
+               <head>ALLMÄNNA IAKTTAGELSER</head>
+                  <p>1.Alla beskrifningar äro för 10 personer.</p>
+                  <p>2.Ju mindre koksalt, ju bättre. - Intet mål utan
+                     syrlig frukt.</p>
+                  <p>3.CACAO och CHOCOLAD. Därtill använda
+                  vi endast d:r Lahmanns Närsalt-Cacao och
+                  Närsalt-Chocolade.</p>
+                  <p>4.CITRONSAFT af friska citroner bör använ
+                     das i stället för ättika, alldenstund citron-
+                     saften befordrar matsmältningen, under det
+                     ättiksyran hämmar den. Att till inläggning
+                     af saltgurka och saladsbär använda litet god
+                     vinättika, kan ju ej inverka.</p>
+                  <p>5.GRÖNSAKER skola koka sakta och i så litet
+                     vatten, att det är inkokt, då grönsakerna
+                     äro färdiga. Intet kokvatten får bortslås,</p>
+           
+           
+        
+            <pb n="30"/>
+           <fw type="header">30 ALLMÄNNA IAKTTAGELSER </fw>
+                <p>alldenstund närsalterna, som äro synnerli-
+                gen lättlösliga, utfällas i kokvattnet.
+                Blomkål och sparris måste kokas i något
+                mera vatten, så länge gödslingen af dessa
+                grönsaker sker på sätt nu brukas, så att
+                den lämnar smak.</p>
+                
+                <p>6.LÖK. Det är lämpligt att använda portugisisk
+                lök i alla anrättningar, där lök förekommer
+                och där ej särskildt annan lök föreskrifves.</p>
+                
+                <p>7.GRYN böra läggas i blöt på kvällen innan de
+                skola användas, och sedan kokas i samma
+                vatten eller mjölk.</p>
+                
+               <p> MJÖL till mjölmat fordrar minst 2 tim-
+                mars svällningstid.</p>
+                
+                <p>8.NÄRSALT är ett extrakt ur lämpliga grönsaker,
+                som innehålla de för kroppen så viktiga
+                mineralämnena i sådan form, att de lätt assi-
+                mileras. — Det bör användas i närsaltfattiga
+                rätter, dock endast i så ringa mängd, att
+                det ej lämnar smak.
+                Närsaltet upplöses i litet hett vatten
+                innan det tillsättes anrättningen.</p>
+                
+                <p>9.SEMLOR. Därmed menas 2-öres släta man-
+                   delbullar.</p>
+           
+           
+     
+            <pb n="31"/>
+             <fw type="header">ALLMÄNNA IAKTTAGELSER 31</fw>
+              
+                 <p>10.SOJA. Den japanska är lämplig att sätta färg
+                 och smak på soppor och såser.</p>
+                 
+                 <p>11.QUARK (färsk ost) är lämpligare än annan
+                 ost till smörgås.</p>
+                 
+                 <p>12.Inläggningsbeskrifningarna gälla Wechs bur-
+                 kar.</p>
+                 
+                 <p>13.Alla ingredienser böra vara goda. Det är
+                 bästa ekonomien.</p>
+                 
+                 <p>14.Öfverlefvor af alla slag böra noga tillvara-
+                 tagas, ty däraf kan tillagas mången god an-
+                 rättning.
+                 Att lämna beskrifning å sådana anrätt-
+                 ningar låter sig svårligen göra ; men får
+                 hvarje intresserad husmoder snart tillräck-
+                 lig egen erfarenhet härutinnan.</p>
+                 
+                 <p><placeName>Askerbo, Djursholm</placeName> i oktober <date when="1906">1906</date>.
+                  <persName>Ellen Asker.</persName>
+                    född <persName>Cronstedt.</persName></p>  
+            
+        </div>
+        <div type="chapter">
+      
+              <pb n="35"/>
+               <opener facs="page header">SOPPOR. 35</opener>
+                  <div type="recipie">
+                     <p facs="recipie-nr"> N:r 1.</p>
+              
+                     <p facs="recipie-title">Klar buljong.</p>
+              
+                        <p>4 stora selleri, 4 dito purjo, 2 dito palsternac-
+                        kor, 1 medelstor rödbeta och, om man har, 1 liter 
+                        färska eller torkade ärtbaljor, rensas och sköljas 
+                        väl påsattes därefter att koka med 4 liter kallt 
+                        vatten. </p>
+                        <p>Soppan får sakta koka 4 à 5 timmar; uppsilas, 
+                        saltas och, om man vill, tillsattes litet japansk soja 
+                        för att få vackrare färg. 
+                        Serveras med rispastejer eller äggpastejer.</p> 
+                        
+                        </div>
+              
+              <div type="recipie-divide"><p>------</p></div>
+              
+                  <div type="recipie">
+                     <p facs="recipie-nr">N:r 2.</p> 
+              
+                     <p facs="recipie-title">Buljong med korngryn.</p> 
+              
+                        <p>3 l. vatten pasattes med 1 1/2 dl. korngryn, 2 
+                        purjo, 2 stora selleri och 1 palsternacka, får koka 
+                        3 timmar sakta. Rötterna borttagas då de äro 
+                        urkokta. </p>
+                        <p>I en särskild kastrull kokas finskurna morötter, 
+                        kålrötter och palsternackor tillsammans uti kort 
+                        vatten. Allt detta lägges sedan i soppskålen och 
+                        soppan hälles kokande däröfver.</p>
+                        </div>
+              
+              <div type="recipie-divide"><p>------</p></div>
+              
+        </div>
+       
+             <pb n="36"/>
+         <fw type="header">36 SOPPOR. 35</fw>
+                  <div type="recipie">
+                     <p facs="recipie-nr"> N:r 3.</p>
+                     <p facs="recipie-title">Grönkål.</p> 
+                        <p>Grönkål rensas och kokas i vatten, som, om 
+                         det ej blir bäskt, tillvaratages. Grönkålen passe-
+                         ras och däraf tages 1/2 l., som vispas uti 1 l. 3 
+                         dl. färdigkokt växtbuljong samt 2 1/2 dl. passerad 
+                         hafresoppa och får koka en god stund.</p> 
+                         <p>1 1/2 dl. hafregryn kokas med 5 dl. vatten och 
+                         passeras. Buljongen kokas af 2 1/2 l. vatten, 3 
+                         purjo, 3 selleri, 2 palsternackor.</p> 
+                         <p>Härti11 förlorade ägg eller äggstanning.</p> 
+                  </div>
+               
+               <div type="recipie-divide"><p>------</p>
+               </div>
+               
+                  <div type="recipie">
+                     <p facs="recipie-nr">N:r 4.</p>
+                     <p facs="recipie-title">Hafremjölsoppa.</p> 
+               
+                        <p>75 gr. smör smältes och tillsättes med 75 gr. 
+                        hafremjöl. Sedan spädes långsamt med 2 1/4 l. växt-
+                        buljong, kokad of 1 morot, 1 portugisisk lök, 3 
+                        selleri, 3 purjo, salt och närsalt. Moroten och 
+                        portugisiska löken brynas först i smör innan vatten 
+                        påspädes.</p> 
+                        <p>Då soppan är kokt, borttagas rotsakerna innan 
+                        den användes att späda med.</p> 
+                        <p>Härtill stekta brödtärningar.</p>
+                  </div>
+               
+               <div type="recipie-divide"><p>------</p></div>
+                
+          
+         <div type="chapter">
+           
+               <pb n="53"/>
+               <opener facs="page header">ANRÄTTNINGAR TILL SOPPOR. 53</opener> 
+                  <div type="recipie">
+                  <p facs="recipie-nr">N:r 36.</p> 
+                  <p facs="recipie-title">Små formar till soppa.</p> 
+                     <p>2 dl. 6 cl. siktade skorpor uppblötas uti 5 
+                     dl. mjölk, tillsättas med 77 gr. socker, 12 cl. smält 
+                     smör, några malda bittermandlar, 5 vispade ägg, 
+                     12 cl. ångade korinter. Små formar smörjas med 
+                     1 dl. skiradt smör, väl rördt med 1 dl. mjöl. Detta 
+                     får helst rinna omkring i formarna, som därefter 
+                     genast beströs med så mycket siktadt rifvebröd, 
+                     som fastnar i smeten. Blandningen hälles sedan
+                     i formarna och gräddas i ugn.</p> 
+                     <p>Uppstjälpas.</p> 
+                  </div>
+               <div type="recipie-divide"><p>------</p></div>
+               
+                 <div type="recipie">
+                 <p facs="recipie-nr">N:r 37.</p> 
+                 <p facs="recipie-title">Formar till soppa.</p> 
+                   <p>4 hela ägg blandas med 11/2 dl. tjock grädde, 
+                   11/2 dl.  smält, kallt smör, 11/2 dl. mjöl, hälles i 
+                   smörade och med mjöl doftade formar. Kokas i 
+                   vattenbad eller gräddas i ugn.</p> 
+              </div>
+               
+              <div type="recipie-divide"><p>------</p></div>
+               <div type="recipie">
+               <p facs="recipie-nr">N:r 38.</p>  
+               <p facs="recipie-title">Klimp till soppa.</p> 
+                  <p>5 dl. mjölk, 60 gr. smör, 60 gr. socker, 
+                  några rifna bittermandlar och en aning salt kokas 
+            
+             <pb n="53"/>
+               <fw type="header">54 ANRÄTTNINGAR TILL SOPPOR. </fw>
+               
+                  upp. I 2 dl. 6 cl. mjölk vispas 4 1/2 dl. mjöl; detta 
+                  hälles sakta under jämn vispning i den kokande 
+                  mjölken. Då gröten kokat, så den släpper kastrul-
+                  len, iröras 3 vispade ägg och då de hunnit blifva 
+                  genomhettade samt gröten stadig, upphälles den</p> 
+                  <p>i vattensköljd form att kallna.</p> 
+                 <p>Uppstjälpes då den skall serveras.</p>
+         </div>
+               
+            <div type="recipie-divide"><p>------</p></div>
+               
+            <div type="recipie">
+            <p facs="recipie-nr">N:r 39.</p> 
+            <p facs="recipie-title">Klimpar till soppa.</p> 
+               
+                  <p>3 1/4 dl. mjölk påsättes med 30 gr. smör, litet 
+                  salt, malen bittermandel och socker. Därefter irö-
+                  res så mycket mjöl, att det släpper kastrullen. Kall-
+                  nadt iröres 2 hela ägg. Man tager med en sked 
+                  små bullar och kokar i växtbuljong. Serveras se-
+                  dan till buljong.</p> 
+                  
+           <div type="recipie-divide"><p>------</p></div>
+               
+           <div type="recipie">
+           <p facs="recipie-nr">N:r 40.</p>  
+           <p facs="recipie-title">Oststänger.</p> 
+                  <p>75 gr. smör skiras, blandas med 50 gr. rifven 
+                  ost, 75 gr. hvetemjöl och arbetas till en deg, som 
+                  formas till fingertjocka stänger, 6 cm. långa, pens-
+                  las med äggula, gräddas på smord plåt i lagom 
+                  varm ugn. </p> 
+           </div>
+               
+           <div type="recipie-divide"><p>------</p></div>
+   </div> 
+  
+   <pb n="59"/>
+      <div type="chapter">
+       <fw type="header">HUFVUDRÄTTER OCH MELLANRÄTTER. 59 </fw>
+         <div type="recipie">
+            <p facs="recipie-nr">N:r 46.</p>   
+            <p facs="recipie-title">A la-daube.</p> 
+                  <p>2 dl. växtbuljong, 3 dl. 3 cl. vatten, 1 dl. 1 cl. 
+                  franskt vin, 30 gr. gelatin, 4 cl. ättika, skal af 
+                  1/4 och saft af 1/2 citron, 2 vispade ägghvitor. Allt 
+                  detta sättes på elden att sakta koka tills det skär 
+                  sig, då det hälles genom silduk. Därefter hälles 
+                  det rundt i en form att stelna omkring alla kanter 
+                  och litet tjockare i botten. Då det stelnat, ilägges 
+                  kokta rödbetor, morötter, ärter, blomkål, jordärts-
+                  kockor, hårdkokta ägg i klyftor, dill, persilja. En 
+                  del af rotsakerna skäres i fasoner, stjärnor eller 
+                  strimlor, så att det ser bra ut. Resten af spadet 
+                  fylles sedan i formen, så det står öfeer rotsakerna. 
+                  Stelnadt uppstjälpes det. Garneras med klufna 
+                  kokta eller förlorade ägg.</p> 
+                  <p>Ätes med samma sås som till vegetarisk salat.</p> 
+                  <p>Hackad dill kan äfven iläggas.</p> 
+            </div>    
+         
+         <div type="recipie-divide"><p>------</p></div>
+         
+         <div type="recipie">
+            <p facs="recipie-nr">N:r 47.</p> 
+            <p facs="recipie-title">Arma riddare.</p> 
+            
+              <p>Härtill användes 2-öres släta mandelbullar, som 
+               skäras itu och doppas i följande smet: 
+               1 l. mjölk, 2 ägg, 7 cl. rifven ost, 3 dl. mjöl          
+  
+   <pb n="60"/>
+      <fw type="header">60 HUFVUDRÄTTER OCH MELLANRÄTTER. </fw>
+               väl vispadt; närsalt. Därefter stekas de i smör 
+               och ätas med lingon.</p> 
+               <p>Äfven kan man lägga dem med lingon på 
+               hvar och en på karott och slå litet vispad grädde 
+               öfver det hela.</p>
+      
+      <div type="recipie-divide"><p>------</p></div>   
+      
+      <div type="recipie">
+            <p facs="recipie-nr">N:r 48</p>
+            <p facs="recipie-title">Bayerska bullar. </p>
+               <p>8 semlor skäras i tärningar, den ena hälften 
+               däraf uppmjukas i litet mjölk, den andra rostas i 
+               smör tillika med 1 dl. 5 cl. hackad lök samt 7 cl. 
+               hackad persilja, närsalt. Allt blandas till en fast 
+               deg, som formas i bullar så stora som en semla, 
+               kokas i saltadt vatten 1/2 timme. Skäras i skifvor 
+               eller bitar, då de serveras. Hållas väl varma. 
+               Härtill brun löksås eller gurksås.</p>
+      </div>
+      
+      <div type="recipie-divide"><p>------</p></div> 
+      
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 49</p>
+         <p facs="recipie-title">Blomkålslåda</p>
+              <p>Blomkål skäres i klyftor, kokas lätt och lägges 
+              i en med smör bestruken form.</p> 
+              <p>Man kokar 150 gr. mjöl med 3/4 l. mjölk samt 
+              80 gr. smör, tills gröten släpper pannan.</p> 
+              <p>Då den afsvalnat fröres 9 ägg-gulor, 1/f l. 
+              mjölk, salt, närsalt och sist hvitarna till skum. 
+              
+   
+  
+   <pb n="61"/>
+       <fw type="header">HUFVUDRÄTTER OCH MELLANRÄTTER. 61</fw>
+              Denna blandning hälles öfver blomkålen och gräd-
+              das sedan i form i ugn</p>
+      
+      
+      <div type="recipie-divide"><p>------</p></div>
+      
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 50</p>
+         <p facs="recipie-title">Blomkålspudding.</p>
+         <p>Först kokas 53 gr. smör med 53 gr. mjöl, där-
+            efter påspädes med 5 dl. uppkokt varm grädde.</p> 
+            <p>När detta är något afkyldt, fröres 6 ägg-gulor, en i 
+            sänder; sist hvitorna till hårdt skum. En form 
+            smörjes och däri fylles hvarfvis smeten och kokt 
+            blomkål i bitar. Det hela ångkokas i 2 timmar. 
+            Serveras med röret smör.</p>                            
+      </div>
+         
+      <div type="recipie-divide"><p>------</p></div>
+      
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 51</p>
+         <p facs="recipie-title">Färs med mesost</p>
+            <p>3/4 färdigkokt och passeradt ris. Riset kokas 
+            helst som till risotto.</p> 
+            <p> 1 1/2 dl. rifven mesost, 3 semlor, 2 dl. rifven 
+             kokt kall potatis, 3 ägg, 1 dl. lökspad, 1 sked smör. 
+             Arbetas till en smidig färs. Häraf lägges sedan 
+             2 färser på en långpanna i ugnen med litet smält, 
+             brynt smör. Spädes och öses ofta med buljong 
+             och lökspad. Till lökspad användes rödlök, som 
+             brynes i smör, påhälles kokande vatten och får
+          
+  <pb n="61"/>
+       <fw type="header"> 61 HUFVUDRÄTTER OCH MELLANRÄTTER.</fw>
+            småkoka tills spadet blir bra litet salt och närsalt 
+            tillsättes.</p>
+            <p>Sås af spadet, som blir i långpannan, redes 
+            med smör, mjöl och litet grädde.</p>
+     </div>
+     <div type="recipie-divide"><p>------</p></div>
+        <div type="recipie">
+           <p facs="recipie-nr">N:r 52</p>
+           <p facs="recipie-title">Gröna bullar.</p>
+               <p>Man kokar potatis dagen förut, rifver sedan 
+               8 1/2 dl. däraf, blandar det med 4 cl. mjöl och 4 
+               ägg, 3 dl. passerad spenat, 1 dl. finhackad lök och 
+               7 cl. finhackad persilja ; brynes i 50 gram smör. 
+               Blandas därefter med potatisen och salt.</p> 
+               <p>Häraf tages med sked rundelar och läggas i 
+               kokande, litet saltadt vatten.</p> 
+               <p>Härtill holländsk sås.</p>  
+       </div>
+       <div type="recipie-divide"><p>------</p></div>
+         <div type="recipie">
+            <p facs="recipie-nr">N:r 53</p>
+            <p facs="recipie-title">Grönkålspudding.</p>
+               <p>2 1/2 dl. färdig, passerad grönkål blandas med 
+               5 ägg-gulor, 1 1/2 dl. gräddmjölk, 7 cl. smält smör, 
+               socker, salt, närsalt, hvitorna sist till skum. Gräd-
+               das i form i ugn.</p> 
+               <p>Härtill mjölksås med lök, capris eller holländsk 
+               sås.</p> 
+         </div>
+         <div type="recipie-divide"><p>------</p></div>
+  
+  
+   <pb n="111"/>
+   <fw type="header">SÅSER. 111</fw>
+   <div type="chapter">
+      <div type="recipie">
+      <p facs="recipie-nr">N:r 151</p>
+      <p facs="recipie-title">Brun löksås.</p>
+            <p>62 gr. smör fräses med 8 cl. mjöl och däri 
+            brynes 1/2 stor, sönderskuren portugisisk lök ; därpå 
+            hälles 1 l. vatten, 1/2 matsked citronsaft, 1/4 lager-
+            blad, 1/2 citronskifva, 1/2 nejlika, salt och närsalt.</p> 
+            <p>Allt kokas sakta 1 timme. Silas. </p>
+      </div>
+      
+      <div type="recipie-divide"><p>------</p></div>
+      
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 152.</p>
+         <p facs="recipie-title">Caprissås.</p>
+            <p>50 gr. smör fräses med 5 cl. mjöl (2 strukna 
+            matskedar), spädes med 1/2 l. växtbuljong eller i 
+            nödfall vatten samt 2 dl. grädde. Sedan ilägges 
+            4 cl. finhackad capris, litet socker och citronsaft 
+            samt en aning salt. Kan afredas med en ägg-gula.</p>
+      </div>
+      
+      <div type="recipie-divide"><p>------</p></div>
+      
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 153.</p>
+         <p facs="recipie-tite">Champignonsås.</p>
+         <p>5 cl. smält smör fräses med 4 cl. mjöl, däri 
+            slås 5 dl. blandadt champignonspad och växtbul-
+            jong, som vispas väl. 2 ägg-gulor vispas med 1 
+            sked grädde och då såsen kokar tages 1 dl. däraf 
+            och vispas med äggen, som sedan slås i såsen 
+            under vispning, så att den ej skär sig.</p> 
+            <p>Hackade champignoner ilägges och tillsättes 
+            med 2 teskedar citronsaft och 2 cl. hvitt vin.</p>
+      </div>
+      
+      <div type="recipie-divide"><p>------</p></div>
+  </div>
+    
+    <div type="chapter">      
+      <pb n="125"/>
+       <fw type="header">> GRÖNSAKER.125</fw>
+         <div type="recipie">
+            <p facs="recipie-nr">N:r 182.</p>
+            <p facs="recipie-title">Blomkål i form, 1.</p>
+               <p>Blomkål skäres i bitar och kokas i något sal-
+               tadt vatten. En form smöras och däri läggas 
+               blomkålsbitarna. Sedan öfverhälles följande bland-
+               ning:</p> 
+               <p>150 gr. mjöl fräses med 80 gr. smör och 
+               spädes med 3/4 l. mjölk och kokas tills gröten 
+               släpper kastrullen. Något afsvalnad iröres 9 hela 
+               ägg, 1/4 l. mjölk samt salt. Gräddas i ugn.</p>
+         </div>
+         
+         <div type="recipie-divide"><p>------</p></div>
+         
+         <div type="recipie">
+            <p facs="recipie-nr">N:r 183</p>
+            <p facs="recipie-title">Blomkål i form, 2.</p>
+               <p>Blomkål rensas, sköljes och kokas i litet sal-
+               tadt vatten samt upptages därefter. Spadet till-
+               varatages.</p> 
+               <p>125 gr. smör fräses med 5 cl. mjöl, spädes 
+               med 1/2 l. af spadet, tillsatt med närsalt, och af-
+               redes med 4 ägg-gulor. Detta slås öfver den 
+               kokta, i form lagda blomkålen. Öfeer det hela 
+               strös 100 gr. parmesanost, blandad med 1 dl. rifna 
+               semlor.</p> 
+               <p>Insättes 10 min. i ugn.</p>
+         </div>
+       
+         <div type="recipie-divide"><p>------</p></div>
+      </div>
+  
+     
+  <div type="chapter">
+    
+       <pb n="143"/>
+     <fw type="header">ENKLARE EFTERRÄTTER SOM ANDRA RÄTT. 143</fw>
+         <div type="recipie">
+            <p facs="recipie-nr">N:r 226.</p>
+            <p facs="recipie-title">Fruktpudding, 1.</p>
+               <p>4 hgr. katrinplommon, 2 hgr. aprikoser och 
+               2 hgr. ringäpplen blötläggas, hvar sort för sig, i 
+               tillsammans 1 l. 2 dl. vatten.</p> 
+               <p>Därefter afslås viffinet och tillsättes med 2 
+               dl. socker. Kvar och en af fruktsorterna kokas 
+               häri och upptagas med hålslef. Får kallna. 3 dl. 
+               socker brynes med 8 cl. (4 matskedar) kokande 
+               vatten. En form smörjes härmed, därefter ned-
+               lägges frukten hvarfvis. Kärnorna urtagas ur plom-
+               monen.</p> 
+               <p>Däröfver slås 8 ägg, vispade med 8 dl. mjölk.</p> 
+               <p>Ångkokas i långpanna i ugn.</p> 
+               <p>Uppstjälpes genast och ätes kall med brylésås.</p>
+         </div>
+     
+       <div type="recipie-divide"><p>------</p></div>
+     
+       <div type="recipie">
+          <p facs="recipie-nr">N:r 227.</p>
+          <p facs="recipie-title">Fruktpudding, 2.</p>
+          <p>Äpplen i halfvor med borttagna kärnhus kokas 
+             halffärdiga i så litet vatten och socker som möj-
+             ligt. Upptagas och få afrinna. Man blandar 61/2 
+             dl. söt grädde, 1 3/4 dl. stötta sockerkringlor, 105 
+             gr. socker, rifvet citronskal, 1 tesked stött kanel 
+             samt 10 ägg-gulor och 6 väl vispade ägg-hvitor.
+      
+   
+       <pb n="144"/>
+        <fw type="header">144 ENKLARE EFTERRÄTTER SOM ANDRA RÄTT.</fw>
+            Sedan lägges frukten i en form tillika med 
+            litet ej såsig kompott eller sylt, därpå af smeten, 
+            sedan frukt och öfverst åter smet.</p> 
+            <p>Puddingen gräddas i ugn.</p> 
+            <p>Serveras med vanilj- eller citronsås.</p> 
+            
+       <div type="recipie-divide"><p>------</p></div>
+          
+       <div type="recipie">
+          <p facs="recipie-nr">N:r 228.</p>
+          <p facs="recipie-title">Katrinplommonkaka.</p>
+            <p>6 1/2 dl. mjölk kokas upp. Däri vispas 1 dl. 
+             3 cl. (2 rågade matskedar) potatismjöl. Sedan det 
+             kallnat, i röres 6 ägg samt litet rifvet citronskal. 
+             En form smörjes med brynt socker och däri läggas 
+             förvällda katrinplommon, kvarur kärnorna bort-
+             tagits, samt små biscuit. Smeten hällel öfver, så 
+             att den tränger sig in emellan frukten. Kokas i 
+             vattenbad i ugnen.</p> 
+             <p>Ätes med vispad grädde.</p> 
+       </div>
+          
+       <div type="recipie-divide"><p>------</p></div>
+          
+       <div type="recipie">
+          <p facs="recipie-nr">N:r 229.</p>
+          <p facs="recipie-title">Krusbärskaka,1.</p>
+            <p> 220 gr. rifna semlor rostas i 160 gr. smör, 5 
+             dl. 6 cl. mjölk slås öfver och får koka till en tjock 
+             gröt. Sedan det något afsvalnat, fröres 9 ägg-
+
+
+  
+     <pb n="145"/>
+        <fw type="header">ENKLARE EFTERRÄTTER SOM ANDRA RÄTT. 145</fw>
+            gulor och 220 gr. socker samt 8 dl. kokta krusbär 
+            samt sist hvitorna till skum.</p>
+            <p>Hälles i en smörad form och gräddas i ugn.</p> 
+            <p>Ätes med vispad grädde.</p> 
+      </div>
+   
+      <div type="recipie-divide"><p>------</p></div>
+          
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 230.</p>
+         <p facs="recipie-title">Krusbärskaka,2.</p>
+           <p>61/2 dl. krusbär kokas till mos med socker 
+           efter smak, och får kallna. 7 ägg-gulor vispas 
+           och nedröres därefter i det kalla moset, 1 dl. 6 
+           cl. smält smör, 314 dl. gräddmjölk, 114 gr. stötta 
+           skorpor och det rifna skalet af 1 liten citron.</p>
+           <p>Hvitorna slås till hårdt skum och nedröres 
+           sist. Alltsammans slås i en form som genast sät-
+           tes i ugn att gräddas.</p> 
+           <p>Serveras varm eller kall med vanilj eller cit-
+           ronsås eller också med vispad grädde.</p> 
+  </div>
+          
+      <div type="recipie-divide"><p>------</p></div>
+          
+      <div type="recipie">
+        <p facs="recipie-nr">N:r 231.</p>
+        <p facs="recipie-title">Kräm med bär eller frukt.</p>
+            <p>1 l. mjölk, 80 gr. rismjöl, 60 gr. socker, en 
+             bit vanilj, 2 ägg-gulor kokas upp. Då det af-
+             svalnat, fröres hvitorna till skum. Kompott eller 
+             insockrade friska bär lägges hvarfvis med små</p>
+  </div>
+          <note n="allmänna iakttagelser nr 10" place="bottom">10</note>
+ </div>           
+
+ <div type="chapter">
+   
+    <pb n="163"/>
+      <fw type="header">FINARE EFTERRÄTTER. 163</fw>
+    
+       <div type="recipie">
+          <p facs="recipie-nr">N:r 261.</p>
+          <p facs="recipie-title">Apelsinpudding.</p>
+            <p>En kräm kokas af 2 dl. 4 cl. franskt vin, 7 
+            ägg-gulor, saft af 3 apelsiner och 1 citron samt 
+            212 gr. socker.</p> 
+            <p>Af 2 apelsiner afrifves skalet mot sockret. 
+            Denna kräm vispas tills den börjar sjuda vid kan-
+            terna och tjockna.</p> 
+            <p>Får kallna. 6 1/2 dl. grädde vispas till hårdt 
+            skum och iröres sedan. 9 skifvor gelatin upplöst 
+            i 1 3/4 dl. vatten ställes att svalna, hvarefter det 
+            iröres.</p>
+       </div>
+    
+       <div type="recipie-divide"><p>------</p></div>
+    
+       <div type="recipie">
+          <p facs="recipie-nr">N:r 262.</p>
+          <p facs="recipie-title">Biscuitpudding.</p>
+             <p>425 gr. sötmandel skållas, skalas, males och 
+             blandas med 425 gr. strösocker och tillsättes med 
+             10 ägghvitor vispade till hårdt skum. Gräddas 
+             i ugn i form med hål i midten.</p> 
+             <p>Slås upp och serveras kall med vanilj- eller 
+             citronsås och syltade frukter.</p> 
+       </div>
+    
+       <div type="recipie-divide"><p>------</p></div>
+    
+       <div type="recipie">
+          <p facs="recipie-nr">N:r 263.</p>
+          <p facs="recipie-title">Blanc-manger med frukt.</p>
+             <p>6 1/2 dl. grädde vispas till hårdt skum, däri 
+             röres 6 blad gelatin, upplöst i varmt vatten, men
+       
+    
+       <pb n="164"/>
+         <fw type="header">164 FINARE EFTERRÄTTER.</fw>
+             afsvalnadt innan det fröres. Hälles i geléskål, där 
+             man förut lagt kokta äpplen och plommon eller 
+             hvad annan frukt man vill.</p>
+       </div>
+    
+       <div type="recipie-divide"><p>------</p></div>
+    
+       <div type="recipie">
+          <p facs="recipie-nr">N:r 263.</p>
+          <p facs="recipie-title">Blanc-manger med mandel.</p>
+            <p>75 gr. sötmandel och 5 gr. bittermandel skål-
+             las och males, 1 l. grädde vispas till hårdt skum. 
+             Tillsättes med vaniljsocker efter smak, 2 mat-
+             skedar madeira eller franskt vin och slutligen 4 
+             hvita och 4 röda gelatinblad, förut upplösta i litet 
+             hett vatten. Slås upp i geléskål att stelna. 10 
+             gr. sötmandel skållas och skäres i fina strimlor, 
+             hvarefter blanc-mangen pickeras därmed.</p>
+       </div>
+    
+       <div type="recipie-divide"><p>------</p></div>
+    
+       <div type="recipie">
+          <p facs="recipie-nr">N:r 264.</p>
+          <p facs="recipie-title">Brylé pudding.</p>
+          <p>1 l. 2 1/2 dl. mjölk uppkokas och slås öfver 
+             9 vispade ägg, 5 cl. socker och 100 gr. malen 
+             mandel. Sedan hälles allt i sockerglaserad form 
+             och kokas i vattenbad i ugn.</p>
+            <p>Till glaseringen 200 gr. socker, som fuktas 
+             med vatten. Uppstjälpes ur formen genast.</p>
+       </div>
+    
+       <div type="recipie-divide"><p>------</p></div>
+    </div>
+  </div> 
+            
+  <div type="chapter">
+     <pb n="177"/>
+     <fw type="header">BAKVERK. 177</fw>
+     
+        <div type="recipie">
+           <p facs="recipie-nr">N:r 283.</p>
+           <p facs="recipie-title">Brun kaka.</p>
+              <p>2 dl. 7 cl. brunt pudersocker blandas med 3 
+              dl. 6 cl. hvetemjöl, 9 cl. skiradt smör, 9 cl. sur 
+              grädde, 3 ägg, 1 tesked soda, 1 tesked karde-
+              mumma, 1 tesked kanel samt 10 bitter- och 20
+              sötmandlar, malda. Gräddas vid svag ugnsvärme
+              i smörad form.</p>
+        </div>
+     
+        <div type="recipie-divide"><p>------</p></div>
+     
+        <div type="recipie">
+           <p facs="recipie-nr">N:r 284.</p>
+           <p facs="recipie-title">Cakes.</p>
+              <p>212 gr. smör röres tills det blir hvitt, och då
+              tillsättes 212 gr. socker, 8 ägg, 1 dl. 5 cl. grädde
+              425 gr. potatismjöl och så mycket hvetemjöl 
+              att degen blir lagom fast att kafla ut tunnt. Ur degen 
+              tages med rundt mått lagom stora kakor, som 
+              förses med ett litet rullen hal vid ena sidan.
+              Degen naggas, då den är utkaflad, innan ka-
+              korna uttagas.</p>
+        </div>
+     
+        <div type="recipie-divide"><p>------</p></div>
+     
+        <div type="recipie">
+           <p facs="recipie-nr">N:r 285.</p>
+           <p facs="recipie-title">Formbröd.</p> 
+              <p>1 1. mjölk, salt, närsalt, 20 gr. jäst, ungefär 
+              2 1. mjöl och 150 gr. smör knådas till deg. Får
+     
+     <note n="allmänna iakttagelser nr 12" place="bottom">12</note>         
+   
+     
+        <pb n="178"/>
+          <fw type="header">178 BAKVERK. </fw>
+            jäsa och arbetas då om samt lägges i formarna, 
+            där det åter får jäsa. Insättes sedan i ugn att
+            gräddas.</p>
+            <p>Användes som rostbröd till smör och honung</p>
+        
+        <div type="recipie-divide"><p>------</p></div>
+           
+        <div type="recipie">
+           <p facs="recipie-nr">N:r 286.</p>
+           <p facs="recipie-title">Grahamsbröd.</p>
+           <p>2 l. mjölk, 15 gr. jäst, 2 dl. sirap och omkring 
+              5 l. groft grahammjöl, beroende på mjölets beskaf-
+              fenhet, arbetas på kvällen till en lös deg i ett fat 
+              med träsked. Lämnas sedan täckt öfver natten
+              att jäsa omkring 9 timmar. Morgonen därpå arbe-
+              tas degen om i fatet samt lägges i 4 smörade for-
+              mar, som insättas i nyss uppeldad ugn att gräddas 
+              cirka 2 timmar.</p> 
+              <p>Då bröden äro gräddade, uttagas de och öfver-
+              strykas med hett vatten, hvarefter de täckas tills
+              de långsamt svalnat.</p> 
+           
+        </div>
+        <div type="recipie-divide"><p>------</p></div>
+        
+        <div type="recipie">
+           <p facs="recipie-nr">N:r 287.</p>
+           <p facs="recipie-title">Grahamsskorpor.</p> 
+           <p>2 l. mjölk värmes, därpå fröres grahammjöl 
+              och 50 gr. jäst. Detta bör göras på afton, och
+
+  
+        <pb n="179"/>
+            <fw type="header">BAKVERK. 179</fw> 
+              morgonen därpå inarbetas 200 gr. socker, 300 gr. 
+              kallt smör samt lagom mjöl. Degen arbetas tills
+              den släpper händer och bord, då man trillar små 
+              runda bullar, som få jäsa på plåt. Gräddas, skäras
+              afsvalnade och torkas till skorpor.</p>
+        </div>
+           
+        <div type="recipie-divide"><p>------</p></div>
+        
+           <div type="recipie">
+           <p facs="recipie-nr">N:r 288.</p>
+           <p facs="recipie-title">Hafrecakes.</p>
+              <p>5 l. hafremjöl, 1 l. hvetemjöl, 2 l. söt mjölk, 
+              425 gr. skiradt smör, 4 cl. socker, en aning salt, 6
+              cl. (6 teskedar) natron och närsalt arbetas väl till-
+              sammans, kaflas ut tunni, prickas och därur ut-
+              tages med ett glas runda kakor, som gräddas.</p>
+        </div>
+           
+        <div type="recipie-divide"><p>------</p></div>
+           
+        <div type="recipie">
+           <p facs="recipie-nr">N:r 289.</p>
+           <p facs="recipie-title">Hvetebröd.</p>
+              <p>På kvällen blandas 1 1/2 l. mjölk, 37 gr. jäst 
+              med så mycket hvetemjöl, att det blir en rätt fast 
+              deg, som öfvertäckes.</p>
+              <p>Morgonen därpå knådas degen och tillsättes 
+              med 225 gr. socker och 225 gr. smör, som arbetas 
+              väl in tillika med mera mjöl. Degen formas till 
+              bullar, som få jäsa, hvarefter de gräddas.</p>  
+        </div>
+           
+        <div type="recipie-divide"><p>------</p></div>        
+     </div>   
+  </div>
+            
+  <div type="chapter">
+  
+   <pb n="193"/>
+   <fw type="header">BAKVERK. 193</fw>
+     
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 313.</p>
+         <p facs="recipie-title">Dannemoragröt.</p>
+            <p>2 l. 6 dl. mjölk sättes på elden med 25 gr. 
+            smör och 2 cl. vaniljsocker. Då det kokar ivispas 
+            8 cl. (2 mindre matskedar) hvetemjöl och 1 dl. 
+            (2 matskedar) potatismjöl, förut hopvispadt, och 
+            salt. Röres så att det ej klimpar sig. Sedan till-
+            sättas 4 hela ägg. Får koka en stund och slås 
+            sedan upp i karott. Serveras med kompott eller 
+            med mjölk.</p>
+      </div>
+     
+      <div type="recipie-divide"><p>------</p></div> 
+     
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 314</p>
+         <p facs="recipie-title">Hafregrynsgröt.</p>
+            <p>1/2 l. små vanliga hafregryn läggas i 1 1/2 l. 
+            vatten att svälla öfver natten. Kokas sedan i samma 
+            vatten i reformkokare eller gryta med tätt lock. 
+            1/2 timme innan den serveras spädes den med litet 
+            kokvarm mjölk, så att den blir lagom tjock. Salt 
+            och närsalt tillsättes.</p>
+      </div>
+     
+      <div type="recipie-divide"><p>------</p></div>
+     
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 315</p>
+         <p facs="recipie-title">Hafregröt att steka.</p>
+            <p>1/2 l. vanliga små gryn läggas uti 1 1/2 l. vatten 
+            att svälla öfver natten. Ångkokas sedan i samma 
+            vatten och färdig uppslås den på fat att kallna.
+         
+         <note n="allmänna iakttagelser nr 13" place="bottom">13</note>
+    
+    <pb n="194"/>
+       <fw type="header">194  GRÖT.</fw>
+          Sedan skäres gröten i skifvor, som stekas i 
+          smör och ätes med lingon eller blåbärskompott.</p>
+      </div>
+     
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 316.</p>
+         <p facs="recipie-title">Mannagrynsgröt.</p>
+            <p>2 l. mjölk, 1/2 l. vatten får koka upp. Däri 
+            vispas 1/2 l. mannagryn, salt och ett par malda bit-
+            termandlar, om man så vill. Gröten får koka sakta 
+            och väl ungefär 50 minuter.</p> 
+            <p>Ätes varm eller kall uppstjälpt med kompott 
+            eller mjölk.</p>
+      </div>
+     
+      <div type="recipie-divide"><p>------</p></div>
+     
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 317.</p>
+         <p facs="recipie-title">Polentagröt.</p>
+            <p>1/2 l. gryn vispas i 1 1/4 l, mjölk och 1 l. vatten, 
+            då det kokar. Salt, litet rifvet citronskal och några 
+            malda bittermandlar tillsättes.</p> 
+            <p>Får koka sakta 20 minuter under omröring.</p> 
+            <p>Ätes med kompott eller mjölk. </p>
+      </div>
+     
+      <div type="recipie-divide"><p>------</p></div>
+     
+      <div type="recipie">
+        <p facs="recipie-nr">N:r 318.</p>
+        <p facs="recipie-title">Risgrynsgröt.</p>
+            <p>50 gr. kallt smör lägges i kastrullen, därpå 1 l. 
+            7 dl. mjölk, som får koka upp, då 1/3 l. risgryn
+    
+      <pb n="195"/>
+         <fw type="header">GRÖT. 195</fw>
+               
+            ilägges. Röres om och lock pålägges. Man rör 
+            sedan endast ett par gånger i gröten. Den måste 
+            stå vid sidan på spisen och koka mycket sakta 
+            och med tätt lock. Serveras med kompott eller mjölk.</p>
+      
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 319.</p>
+         <p facs="recipie-title">Rågmjölsgröt.</p>
+            <p> 1/2 l. vatten får koka upp och däri vispas 
+            4 dl. 7 cl. groft rågmjöl, förut rördt i 3 dl. vatten.</p> 
+            <p>Gröten måste vispas duktigt och får sedan stå 
+            och småkoka 30-40 minuter. Saltas.</p> 
+            <p>Ätes med kompott eller mjölk.</p>
+      </div>
+      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 320.</p>
+         <p facs="recipie-title">Smörgröt.</p>
+            <p>150 gr. smör och 5 1/2 dl. mjöl fräses, spädes 
+            med 1 l. 6 dl. mjölk och får koka en stund. Upp-
+            hålles sedan i karott att stanna.</p> 
+            <p>Serveras kall med kompott eller mjölk.</p>
+      </div>
+      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 321.</p>
+         <p facs="recipie-title">Äppelris.</p>
+            <p>1 1/4 l. risgrynsgröt blandas med 1 l. passerad 
+            äppelmos.</p> 
+            <p>Serveras med gräddmjölk</p>
+      </div>
+      <div type="recipie-divide"><p>------</p></div>
+    </div>     
+  </div>       
+   
+ <div type="chapter">
+
+   <pb n="200"/>
+    <fw type="header">200 DRYCKER.</fw>
+    
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 325.</p>
+         <p facs="recipie-title">Rabarber och vinbärsdryck.</p>
+         <p>6 dl. sur rabarber- och vinbärssaft, 6 dl. vat-
+            ten, 1 dl. apelsinsaft, 3 dl. blåbärssaft af kompott 
+            och 1/2 dl. strösocker. Blandas väl.</p> 
+      </div>
+    
+      <div type="recipie-divide"><p>------</p></div>
+    
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 326.</p>
+         <p facs="recipie-title">Sorbetto.</p>
+            <p>6 st. tjocka rabarberstjälkar skalas, skäres i 
+            bitar, öfverhälles med 1 1. vatten. 125-130 gr. 
+            socker och skalet af 1/2 citron tillsättes; får stå 
+            öfvertäckt 1 timme.</p> 
+            <p>Därefter ihälles 1 butelj franskt vin, kokas 
+            upp och silas. Drickes kallt. </p>
+      </div>
+    
+      <div type="recipie-divide"><p>------</p></div>
+    
+      <div type="recipie">
+          <p facs="recipie-nr">N:r 327.</p>
+          <p facs="recipie-title">Sur mjölk.</p>
+             <p>Surnad mjölk vispas väl och serveras i glas.</p>
+      </div>
+      <div type="recipie-divide"><p>------</p></div>
+     
+ </div>
+
+ <div type="chapter">
+ 
+   <pb n="203"/>
+    <fw type="header">INLÄGGNINGAR AF KOMPOTT M. M. 203</fw>
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 328.</p>
+         <p facs="recipie-title">Apelsinsaft.</p>
+         <p>10 apelsiner borstas med mjuk borste, doppad
+            i ljumt såpvatten, sköljas och torkas väl. 2 kg.
+            toppsocker i bitar. Skalen på apelsinerna afrifvas
+            mot sockret, saften af 5 apelsiner utpressas, silas
+            och tillsättes jämte 60 gr. finstött citronsyra samt
+            2 1/2 l. vatten. Saften får stå öfvertäckt ett dygn,
+            hvarefter den silas, skummas och hålles på flaskor.</p>
+         
+      <div type="recipie-divide"><p>------</p></div>
+      </div>
+    
+      <div type="recipie">
+         <p facs="recipie-nr">N:r 329.</p>
+         <p facs="recipie-title">Bigaråkompott.</p>
+         <p>Bären sköljas och om man vill urkärnas, hvar-
+            vid man brukar lägga några innerkärnor i hvarje
+            burk, annars kunna bären läggas med kärnorna i.
+            Bären läggas på burkarna, öfverhällas med
+            en lag, bestående af 300 gr. socker till 1 l. vatten,
+            som blandas kallt och sockret får smälta. Bur-
+            karna fyllas ej för fulla utan 3-4 cm. lämnas
+            från öfverkanten, hvarefter de fastsättas på appa-
+            raten, som nedsättes i grytan, hvarpå så mycket
+            kallt vatten hällesiden att det står upp på halfva
+            burkarna. Lock pålägges och termometern isät-
+            tes. Uppvärmes långsamt till 85 grader och får
+            bibehålla denna temperatur i 20 minuter. Grytan [...]  </p>
+      </div>
+         
+ </div>   
+   
+<div type="chapter">
+  
+   <pb n="231"/>
+    <fw type="header">MATSEDLAR FOR EN MÅNAD, SOMMAREN 231</fw>
+      <div type="recipie">
+         <!--<p facs="recipie-nr"></p>-->
+         <p facs="recipie-title">SOMMAREN. .</p>
+         <p>Till hvarje mål, om man så hafva kan, rikligt
+            med friska bär eller kompott af alla slag samt
+            frukt, allt efter årstiden, färsk eller inkokt.
+            Färsk salat, färsk gurka.
+            Till lunchen dagligen smör, kraft- eller gra-
+            hamsbröd, hårdt bröd, rostbröd, skorpor, Lah-
+            manns närsaltchocolad eller vispad, sur mjölk,
+            rädisor. Söndag: hafrecakes, söndag och onsdag:
+            honung och ibland ost eller quark.
+            Till middagen endast hårdt groft bröd.</p>
+      </div>
+            <div type="recipie-divide"><p>------</p></div>
+      <div type="recipie">
+               <p>MÅNDAG.</p>
+               <p>Lunch: Spenatomelett med stekt potatis.</p>
+               <p>Middag: Wienerbullar med blomkål, färsk po-
+               tatis och steksås. Färsk, kokt rabarber med
+               sandtårta.</p>
+               
+               <p>TISDAG.</p>
+               <p>Lunch: Kroppkakor med lingon.</p>
+               <p> Middag: Maccaroni med ost, caprissås, spenat
+               och färsk potatis. Jordgubbar med grädde och
+               kaka.</p>
+      </div>
+         
+</div> 
+        
+         
+ <div type="chapter">
+  
+    <pb n="257"/>
+      <fw type="header">EXEMPEL PÅ FESTMIDDAGAR. 257</fw>
+       <div type="recipie">
+          <!--<p facs="recipie-nr"></p>-->
+          <p facs="recipie-title">Vår</p>
+             <p>Middag: Jordärtskockssoppa med oststänger.
+             Vôle-au-vent med gurkragout och färsk salat.
+             Murkelris i form, uppstjälpt med murkelsås,
+             blomkål, morötter med äggredning och syrlig 
+             potatis, samt syltade tomater. Kronärtskocks-
+             bottnar med rördt smör. Drottningholmtårta
+             med citronsås och kompott. Apelsiner, äpplen,
+             valnötter, russin, chocolad.</p> 
+       </div>
+      <div type="recipie-divide"><p>------</p></div>
+       <div type="recipie">
+          <!--<p facs="recipie-nr"></p>-->
+          <p facs="recipie-title">Sommar</p>
+             <p>Middag: Klar grönsoppa och smörgåsar med 
+             ost. Potatispudding 1 med svampsås, ärter, 
+             potatiskroketter och sockerärter samt lingon-
+             sylt och färsk gurka med salatsås. Sparris med 
+             rördt smör. Jordgubbar med god kaka med 
+             russin och mandel samt frusen grädde. Vin-
+             drufvor, klara astrakaner och melon.</p>
+       </div> 
+       <div type="recipie-divide"><p>------</p></div>
+       <note n="allmänna iakttagelser nr 17" place="bottom">17</note>
+    
+ 
+    <pb n="258"/>
+      <fw type="header">258 EXEMPEL PÅ FESTMIDDAGAR.</fw>
+       <div type="recipie">
+          <!--<p facs="recipie-nr"></p>-->
+          <p facs="recipie-title">Höst</p>
+             <p>Middag : Tomatsoppa med formar till soppa. 
+             Smördegsbotten med champignonstufning. 
+             Nudel, kokt i lökspad med morotspastejer, 
+             blomkål, potatismos, saltgurka och syltade lin-
+             gon. Selleriskifvor mea ärter. Citronkräm 
+             med kompott och spritzbakelse. Bananer, 
+             äpplen, päron, rostade mandlar, dadlar, choco-
+             lade.</p>
+        </div> 
+      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipie">
+         <!--<p facs="recipie-nr"></p>-->
+         <p facs="recipie-title">Vinter</p>
+            <p>Middag: Kastanjepure och stekta bullar med 
+            ost. Vegetarisk salat med sås, små smördegs-
+            rutor och halfva ägg. Äggsoufflé med spar-
+            risstufning, brüsselkål, blomkål och potatis-
+            kroketter samt syltade tomater och saltgurka. 
+            Sockerrötter med rördt smör. Blanc-manger 
+            med kompott och mandelkakor. Färsk frukt, 
+            rostade mandlar, dadlar, chocolad och frukt-
+            pastiller.</p>
+      </div>
+      <div type="recipie-divide"><p>------</p></div>
+    
+ </div>
+ <div type="chapter">
+    <pb n="261"/>
+       <fw type="header">JULMAT.261</fw> 
+       <div type="recipie">
+          <!--<p facs="recipie-nr"></p>-->
+          <p facs="recipie-title">Julafton</p>
+            <p>Lunch: Vörtbröd, saffrans- och hvetebröd med
+             russin, pepparkakor, chocolad, honung, ris-
+             grynsgröt med kompott och mjölk.</p> 
+             <p>Middag: Redd soppa med smorgasar af vört-
+             bröd med ost. Potatispudding med svampsås, 
+             ärter och helbrynt potatis samt vinbärsgelé.</p>
+       </div>
+       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipie">
+          <!--<p facs="recipie-nr"></p>-->
+          <p facs="recipie-title">Juldagen</p>
+             <p>Lunch: Vörtbrod, saffrans- och hvetebrod med 
+             russin, pepparkakor, chocolad och ost. Korn-
+             grynskaka med lingon.</p> 
+             <p>Middag: Grönkålsoppa med förlorade ägg. 
+             Vôle-au-vent med gurkragout och färsk salat. 
+             Nudel, kokt i lökspad med tomatsås, brynta 
+             morötter och potatismos samt salatskörsbär.
+             Saftgelé med klenätter och vispad grädde.
+             Frukt, nötter, fikon, russin och mandel, choco-
+             -lad och små marcipangrisar.</p>
+       </div>
+       <div type="recipie-divide"><p>------</p></div>
+         
+ 
+ 
+         </div>
+      </div>
+    </div>
+      </div>
+       </div>
+      </body>
+   </text>
+   
+</TEI>

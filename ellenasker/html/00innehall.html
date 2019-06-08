@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../imgs/fav.png"/>
+    <title>Ellen Asker</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery.modal.min.css">
+    <!-- We are now inside a subdirectory, add '..' to paths -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery.modal.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+      setRoot("../");
+      setSelected("#menu-3"); // set selected menu item
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- Header and navbar, loaded automatically -->
+      <div id="header"></div>
+      <nav id="nav"></nav>
+
+      <div id="content">
+        <div class="col-2">
+          <h2>Transkription</h2>
+          <h3>INNEHÅLL.</h3>
+
+          <table>
+              <tr><th></th><th>Sid.</th></tr>
+              <tr><td>Inledning</td><td>9</td></tr>
+              <tr><td>Allmänna iakttagelser</td><td>29</td></tr>
+              <tr><td>Soppor</td><td>33</td></tr>
+              <tr><td>Anrättningar till soppor</td><td>51</td></tr>
+              <tr><td>Hufvudrätter och mellanrätter</td><td>57</td></tr>
+              <tr><td>Såser</td><td>109</td></tr>
+              <tr><td>Grönsaker</td><td>123</td></tr>
+              <tr><td>Enklare efterrätter och rätter att använda som andra rätt</td><td>141</td></tr>
+              <tr><td>Finare efterrätter</td><td>161</td></tr>
+              <tr><td>Bakverk</td><td>175</td></tr>
+              <tr><td>Gröt</td><td>191</td></tr>
+              <tr><td>Drycker</td><td>197</td></tr>
+              <tr><td>Inläggningar af kompott, sylt, saft, grönsaker</td><td>201</td></tr>
+              <tr><td>Matsedlar för en månad, Våren</td><td>223</td></tr>
+              <tr><td>"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&nbsp;&nbsp;&nbsp;"&nbsp;&nbsp;&nbsp;"&nbsp;&nbsp;&nbsp;&nbsp;Sommaren</td><td>231</td></tr>
+              <tr><td>"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&nbsp;&nbsp;&nbsp;"&nbsp;&nbsp;&nbsp;"&nbsp;&nbsp;&nbsp;&nbsp;Hösten</td><td>239</td></tr>
+              <tr><td>"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&nbsp;&nbsp;&nbsp;"&nbsp;&nbsp;&nbsp;"&nbsp;&nbsp;&nbsp;&nbsp;Vintern</td><td>247</td></tr>
+              <tr><td>Exempel på festmiddagar</td><td>255</td></tr>
+              <tr><td>Julmat</td><td>259</td></tr>
+              <tr><td>Öfversiktstabell öfver födoämnenas näringsvärde</td><td>262,263</td></tr>
+              <tr><td>Register</td><td>265</td></tr>
+              <tr><td>Rättelser</td><td>272</td></tr>
+              <tr><td>Annons</td><td></td></tr>
+          </table>
+        </div>
+
+        <!-- Image -->
+        <div class="col-2">
+        <h2>Faksimil</h2>
+          <div class="image-small">
+              <a href="#ex1" rel="modal:open">
+                  <img src="../imgs/00.jpg" alt="../imgs/00.jpg">
+              </a>
+          </div>
+        </div>
+        <!-- Shown on click -->
+        <div id="ex1" class="modal">
+          <img src="../imgs/00.jpg" alt="../imgs/00.jpg">
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </body>
+</html>
