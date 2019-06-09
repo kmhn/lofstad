@@ -61,8 +61,8 @@ nav a.selected{
     text-align: center;
     display: inline-block;
     width: 100%;
-    background-color: gray;
-    color: black;
+    background-color: #566c9b;
+    color: #aab9d6;
     font-size: 2em;
     padding: 30px;
     font-family: "Simplifica";
@@ -101,46 +101,36 @@ nav a.selected{
 }
 
 .grid-cell {
-    width: 30%;
-    height: 200px;
-    display: inline-block;
-    float: left;
-    margin: 1px;
-    border: 1px solid #ddd;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 0,3em;
-	
-}
-
-.grid-cell div {
+    width: 40%;
     margin: 10px;
-    cursor: pointer;
+    float: left;
+    border: 1px solid #aab9d6;
+    text-align: center;
 }
 
 .grid-cell:hover {
     border: 1px solid #999;
+    padding: 0;
 }
 
 .grid-cell a {
+    padding-top: 10px;
+    padding-bottom: 0;
+    width: 100%;
+    display: inline-block;
     text-decoration: none;
     color: black;
-}
-
-.grid-cell h1 {
-    text-align: center;
-    /*font-family: "Simplifica";*/
     font-size: 1.2em;
-    font-weight: normal;
 }
-
-.grid-cell img {
-    width: 100%;
+.grid-cell a span {
+    font-size: 0.8em;
 }
 
 /* Image small */
 .image-small img {
     width: 80%;
 }
+
 
 .modal {
     max-width: 80% !important;
@@ -151,6 +141,8 @@ nav a.selected{
 .modal img {
     width: 100%;
 }
+
+
 
 hr {
     width: 25%;
@@ -180,4 +172,25 @@ td {
 
 tr th:last-child, tr td:last-child {
     text-align: right;
+}
+
+.book-cover img {
+	height: 250px;
+	
+}
+
+h1 {
+	color: #d62106;
+	
+}
+
+h2 {
+	color: #d62106;
+	
+}
+
+.book-cover {
+	width: 30%;
+	float: left;
+	
 }

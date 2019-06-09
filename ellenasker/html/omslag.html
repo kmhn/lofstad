@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../imgs/fav.png"/>
+    <title>Ellen Asker</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery.modal.min.css">
+    <!-- We are now inside a subdirectory, add '..' to paths -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/jquery.modal.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+      setRoot("../");
+      setSelected("#menu-3"); // set selected menu item
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- Header and navbar, loaded automatically -->
+      <div id="header"></div>
+      <nav id="nav"></nav>
+
+      <div id="content">
+      
+        	<h2>Omslag</h2>
+        	<p>Klicka på bilderna för att förstora</p>
+            <div class="book-cover">
+                <a href="#ex1" rel="modal:open">
+                    <img src="../imgs/framsida.jpg" alt="../imgs/framsida.jpg">
+                </a>
+                <h3>Framsida</h3>
+            </div>
+       
+        
+       
+            <div class="book-cover">
+                <a href="#ex2" rel="modal:open">
+                    <img src="../imgs/baksida.jpg" alt="../imgs/baksida.jpg">
+                </a>
+                <h3>Baksida</h3>
+            </div>
+    
+        
+            <div class="book-cover">
+                <a href="#ex3" rel="modal:open">
+                    <img src="../imgs/rygg.jpg" alt="../imgs/rygg.jpg">
+                </a>
+                <h3>Rygg</h3>
+            </div>
+       
+        <!-- Shown on click -->
+        <div id="ex1" class="modal">
+            <img src="../imgs/framsida.jpg" alt="../imgs/framsida.jpg">
+        </div>
+         <div id="ex2" class="modal">
+            <img src="../imgs/baksida.jpg" alt="../imgs/baksida.jpg">
+        </div>
+         <div id="ex3" class="modal">
+            <img src="../imgs/rygg.jpg" alt="../imgs/rygg.jpg">
+        </div>
+      </div>
+    </div>
+    
+     </div>
+  </body>
+</html>

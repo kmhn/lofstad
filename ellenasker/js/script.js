@@ -23,20 +23,17 @@ function setRoot(path){
 
 function loadGrid(grid){
     for(var i in grid){
-        var item = grid[i];
+        var text = grid[i][0];
+        var link = grid[i][1];
+        var page = grid[i][2];
+
         var cell = $('<div class="grid-cell">');
-        var link = $('<a>');
-        $(link).attr('href', item[2]);
-        var div = $('<div>');
-        var img = $('<img>');
-        img.attr('src', item[0]);
-        img.attr('alt', 'Bild: ' + item[0]);
-        var title = $('<h1>');
-        title.html(item[1]);
-        $(div).append(img);
-        $(div).append(title);
-        $(link).append(div);
-        $(cell).append(link);
+        var inner = $('<div>');
+        var a = $('<a>');
+        $(a).attr('href', link);
+        $(a).html(text + '<br><span>' + page + '</span>');
+        $(inner).append(a);
+        $(cell).append(inner);
         $( "#content").append(cell);
     }
 }

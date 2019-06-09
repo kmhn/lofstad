@@ -11,23 +11,24 @@
       setSelected("#menu-3"); // set selected menu item
       $(document).ready(function() {
         var grid = [
-          ['imgs/tn/tit_00innehall_tn.jpg', 'Innehåll', 'html/00innehall.html'],
-          ['imgs/tn/tit_inledning_tn.jpg', 'Inledning', 'html/kapitelsida_inledning.html'],
-        	['imgs/tn/tit_allmanna_tn.jpg', 'Allmänna iakttagelser', 'html/kapitelsida_allmanna.html'],
-        	['imgs/tn/tit_soppor_tn.jpg', 'Soppor', 'html/kapitelsida_soppor.html'],
-        	['imgs/tn/tit_anrattningar_tn.jpg', 'Anrättningar till soppor', 'html/kapitelsida_anrattningar.html'],
-        	['imgs/tn/tit_huvochmel_tn.jpg', 'Hufvudrätter och mellanrätter', 'html/kapitelsida_hufvudratter.html'],
-        	['imgs/tn/tit_saser_tn.jpg', 'Såser', 'html/kapitelsida_saser.html'],
-        	['imgs/tn/tit_gronsaker_tn.jpg', 'Grönsaker', 'html/kapitelsida_gronsaker.html'],
-        	['imgs/tn/tit_enklare_tn.jpg', 'Enklare efterrätter som andrarätt', 'html/kapitelsida_enklare.html'],
-        	['imgs/tn/tit_finare_tn.jpg', 'Finare efterrätter', 'html/kapitelsida_finare.html'],
-        	['imgs/tn/tit_bakverk_tn.jpg', 'Bakverk', 'html/kapitelsida_bakverk.html'],
-        	['imgs/tn/tit_grot_tn.jpg', 'Gröt', 'html/kapitelsida_grot.html'],
-        	['imgs/tn/tit_drycker_tn.jpg', 'Drycker', 'html/kapitelsida_drycker.html'],
-        	['imgs/tn/tit_inlagg_tn.jpg', 'Inläggningar och kompotter', 'html/kapitelsida_inlaggningar.html'],
-        	['imgs/tn/tit_matsedlar_tn.jpg', 'Matsedlar för en månad', 'html/kapitelsida_matsedlar.html'],
-        	['imgs/tn/tit_exfest_tn.jpg', 'Exempel på festmiddagar', 'html/kapitelsida_exempel.html'],
-        	['imgs/tn/tit_julmat_tn.jpg', 'Julmat', 'html/kapitelsida_julmat.html'],
+        	['Omslag', 'html/omslag.html', 'framsida, baksida, rygg'],
+          	['Innehåll', 'html/00innehall.html', '&nbsp;'],
+          	['Inledning', 'html/kapitelsida_inledning.html', 's. 9-28'],
+        	['Allmänna iakttagelser', 'html/kapitelsida_allmanna.html', 's. 29-32'],
+        	['Soppor', 'html/kapitelsida_soppor.html', 's. 33-50'],
+        	['Anrättningar till soppor', 'html/kapitelsida_anrattningar.html', 's. 51-56'],
+        	['Hufvudrätter och mellanrätter', 'html/kapitelsida_hufvudratter.html', 's. 57-108'],
+        	['Såser', 'html/kapitelsida_saser.html', 's. 109-122'],
+        	['Grönsaker', 'html/kapitelsida_gronsaker.html', 's. 123-140'],
+        	['Enklare efterrätter som andrarätt', 'html/kapitelsida_enklare.html', 's. 141-160'],
+        	['Finare efterrätter', 'html/kapitelsida_finare.html', 's. 161-174'],
+        	['Bakverk', 'html/kapitelsida_bakverk.html', 's. 175-190'],
+        	['Gröt', 'html/kapitelsida_grot.html', 's. 191-196'],
+        	['Drycker', 'html/kapitelsida_drycker.html', 's. 197-200'],
+        	['Inläggningar och kompotter', 'html/kapitelsida_inlaggningar.html', 's. 201-222'],
+        	['Matsedlar för en månad', 'html/kapitelsida_matsedlar.html', 's. 223-254'],
+        	['Exempel på festmiddagar', 'html/kapitelsida_exempel.html', 's. 255-258'],
+        	['Julmat', 'html/kapitelsida_julmat.html', 's. 259-261'],
         ];
         loadGrid(grid);
         console.log(window.history);
@@ -41,8 +42,10 @@
       <!-- Header and navbar, loaded automatically -->
       <div id="header"></div>
       <nav id="nav"></nav>
-
       <div id="content">
+      <h1>Läs utdrag</h1>
+      <p> Här finns delar av boken att läsa. Boksidorna finns presenterade som bild och text,</br>
+       välj kapitel genom att klicka på rutorna.</p>
         <!-- Grid added automatically -->  
       </div>
     </div>
