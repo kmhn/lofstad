@@ -834,10 +834,10 @@
       
               <pb n="35"/>
                <opener facs="page header">SOPPOR. 35</opener>
-                  <div type="recipie">
-                     <p facs="recipie-nr"> N:r 1.</p>
+                  <div type="recipe">
+                     <p facs="recipe-nr"> N:r 1.</p>
               
-                     <p facs="recipie-title">Klar buljong.</p>
+                     <p facs="recipe-title">Klar buljong.</p>
               
                         <p>4 stora selleri, 4 dito purjo, 2 dito palsternac-
                         kor, 1 medelstor rödbeta och, om man har, 1 liter 
@@ -851,12 +851,12 @@
                         
                         </div>
               
-              <div type="recipie-divide"><p>------</p></div>
+              <div type="recipe-divide"><p>------</p></div>
               
-                  <div type="recipie">
-                     <p facs="recipie-nr">N:r 2.</p> 
+                  <div type="recipe">
+                     <p facs="recipe-nr">N:r 2.</p> 
               
-                     <p facs="recipie-title">Buljong med korngryn.</p> 
+                     <p facs="recipe-title">Buljong med korngryn.</p> 
               
                         <p>3 l. vatten pasattes med 1 1/2 dl. korngryn, 2 
                         purjo, 2 stora selleri och 1 palsternacka, får koka 
@@ -868,15 +868,15 @@
                         soppan hälles kokande däröfver.</p>
                         </div>
               
-              <div type="recipie-divide"><p>------</p></div>
+              <div type="recipe-divide"><p>------</p></div>
               
         </div>
        
              <pb n="36"/>
          <fw type="header">36 SOPPOR. 35</fw>
-                  <div type="recipie">
-                     <p facs="recipie-nr"> N:r 3.</p>
-                     <p facs="recipie-title">Grönkål.</p> 
+                  <div type="recipe">
+                     <p facs="recipe-nr"> N:r 3.</p>
+                     <p facs="recipe-title">Grönkål.</p> 
                         <p>Grönkål rensas och kokas i vatten, som, om 
                          det ej blir bäskt, tillvaratages. Grönkålen passe-
                          ras och däraf tages 1/2 l., som vispas uti 1 l. 3 
@@ -888,12 +888,12 @@
                          <p>Härti11 förlorade ägg eller äggstanning.</p> 
                   </div>
                
-               <div type="recipie-divide"><p>------</p>
+               <div type="recipe-divide"><p>------</p>
                </div>
                
-                  <div type="recipie">
-                     <p facs="recipie-nr">N:r 4.</p>
-                     <p facs="recipie-title">Hafremjölsoppa.</p> 
+                  <div type="recipe">
+                     <p facs="recipe-nr">N:r 4.</p>
+                     <p facs="recipe-title">Hafremjölsoppa.</p> 
                
                         <p>75 gr. smör smältes och tillsättes med 75 gr. 
                         hafremjöl. Sedan spädes långsamt med 2 1/4 l. växt-
@@ -906,16 +906,16 @@
                         <p>Härtill stekta brödtärningar.</p>
                   </div>
                
-               <div type="recipie-divide"><p>------</p></div>
+               <div type="recipe-divide"><p>------</p></div>
                 
           
          <div type="chapter">
            
                <pb n="53"/>
                <opener facs="page header">ANRÄTTNINGAR TILL SOPPOR. 53</opener> 
-                  <div type="recipie">
-                  <p facs="recipie-nr">N:r 36.</p> 
-                  <p facs="recipie-title">Små formar till soppa.</p> 
+                  <div type="recipe">
+                  <p facs="recipe-nr">N:r 36.</p> 
+                  <p facs="recipe-title">Små formar till soppa.</p> 
                      <p>2 dl. 6 cl. siktade skorpor uppblötas uti 5 
                      dl. mjölk, tillsättas med 77 gr. socker, 12 cl. smält 
                      smör, några malda bittermandlar, 5 vispade ägg, 
@@ -927,21 +927,21 @@
                      i formarna och gräddas i ugn.</p> 
                      <p>Uppstjälpas.</p> 
                   </div>
-               <div type="recipie-divide"><p>------</p></div>
+               <div type="recipe-divide"><p>------</p></div>
                
-                 <div type="recipie">
-                 <p facs="recipie-nr">N:r 37.</p> 
-                 <p facs="recipie-title">Formar till soppa.</p> 
+                 <div type="recipe">
+                 <p facs="recipe-nr">N:r 37.</p> 
+                 <p facs="recipe-title">Formar till soppa.</p> 
                    <p>4 hela ägg blandas med 11/2 dl. tjock grädde, 
                    11/2 dl.  smält, kallt smör, 11/2 dl. mjöl, hälles i 
                    smörade och med mjöl doftade formar. Kokas i 
                    vattenbad eller gräddas i ugn.</p> 
               </div>
                
-              <div type="recipie-divide"><p>------</p></div>
-               <div type="recipie">
-               <p facs="recipie-nr">N:r 38.</p>  
-               <p facs="recipie-title">Klimp till soppa.</p> 
+              <div type="recipe-divide"><p>------</p></div>
+               <div type="recipe">
+               <p facs="recipe-nr">N:r 38.</p>  
+               <p facs="recipe-title">Klimp till soppa.</p> 
                   <p>5 dl. mjölk, 60 gr. smör, 60 gr. socker, 
                   några rifna bittermandlar och en aning salt kokas 
             
@@ -957,11 +957,11 @@
                  <p>Uppstjälpes då den skall serveras.</p>
          </div>
                
-            <div type="recipie-divide"><p>------</p></div>
+            <div type="recipe-divide"><p>------</p></div>
                
-            <div type="recipie">
-            <p facs="recipie-nr">N:r 39.</p> 
-            <p facs="recipie-title">Klimpar till soppa.</p> 
+            <div type="recipe">
+            <p facs="recipe-nr">N:r 39.</p> 
+            <p facs="recipe-title">Klimpar till soppa.</p> 
                
                   <p>3 1/4 dl. mjölk påsättes med 30 gr. smör, litet 
                   salt, malen bittermandel och socker. Därefter irö-
@@ -970,11 +970,11 @@
                   små bullar och kokar i växtbuljong. Serveras se-
                   dan till buljong.</p> 
                   
-           <div type="recipie-divide"><p>------</p></div>
+           <div type="recipe-divide"><p>------</p></div>
                
-           <div type="recipie">
-           <p facs="recipie-nr">N:r 40.</p>  
-           <p facs="recipie-title">Oststänger.</p> 
+           <div type="recipe">
+           <p facs="recipe-nr">N:r 40.</p>  
+           <p facs="recipe-title">Oststänger.</p> 
                   <p>75 gr. smör skiras, blandas med 50 gr. rifven 
                   ost, 75 gr. hvetemjöl och arbetas till en deg, som 
                   formas till fingertjocka stänger, 6 cm. långa, pens-
@@ -982,15 +982,15 @@
                   varm ugn. </p> 
            </div>
                
-           <div type="recipie-divide"><p>------</p></div>
+           <div type="recipe-divide"><p>------</p></div>
    </div> 
   
    <pb n="59"/>
       <div type="chapter">
        <fw type="header">HUFVUDRÄTTER OCH MELLANRÄTTER. 59 </fw>
-         <div type="recipie">
-            <p facs="recipie-nr">N:r 46.</p>   
-            <p facs="recipie-title">A la-daube.</p> 
+         <div type="recipe">
+            <p facs="recipe-nr">N:r 46.</p>   
+            <p facs="recipe-title">A la-daube.</p> 
                   <p>2 dl. växtbuljong, 3 dl. 3 cl. vatten, 1 dl. 1 cl. 
                   franskt vin, 30 gr. gelatin, 4 cl. ättika, skal af 
                   1/4 och saft af 1/2 citron, 2 vispade ägghvitor. Allt 
@@ -1009,11 +1009,11 @@
                   <p>Hackad dill kan äfven iläggas.</p> 
             </div>    
          
-         <div type="recipie-divide"><p>------</p></div>
+         <div type="recipe-divide"><p>------</p></div>
          
-         <div type="recipie">
-            <p facs="recipie-nr">N:r 47.</p> 
-            <p facs="recipie-title">Arma riddare.</p> 
+         <div type="recipe">
+            <p facs="recipe-nr">N:r 47.</p> 
+            <p facs="recipe-title">Arma riddare.</p> 
             
               <p>Härtill användes 2-öres släta mandelbullar, som 
                skäras itu och doppas i följande smet: 
@@ -1027,11 +1027,11 @@
                hvar och en på karott och slå litet vispad grädde 
                öfver det hela.</p>
       
-      <div type="recipie-divide"><p>------</p></div>   
+      <div type="recipe-divide"><p>------</p></div>   
       
-      <div type="recipie">
-            <p facs="recipie-nr">N:r 48</p>
-            <p facs="recipie-title">Bayerska bullar. </p>
+      <div type="recipe">
+            <p facs="recipe-nr">N:r 48</p>
+            <p facs="recipe-title">Bayerska bullar. </p>
                <p>8 semlor skäras i tärningar, den ena hälften 
                däraf uppmjukas i litet mjölk, den andra rostas i 
                smör tillika med 1 dl. 5 cl. hackad lök samt 7 cl. 
@@ -1042,11 +1042,11 @@
                Härtill brun löksås eller gurksås.</p>
       </div>
       
-      <div type="recipie-divide"><p>------</p></div> 
+      <div type="recipe-divide"><p>------</p></div> 
       
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 49</p>
-         <p facs="recipie-title">Blomkålslåda</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 49</p>
+         <p facs="recipe-title">Blomkålslåda</p>
               <p>Blomkål skäres i klyftor, kokas lätt och lägges 
               i en med smör bestruken form.</p> 
               <p>Man kokar 150 gr. mjöl med 3/4 l. mjölk samt 
@@ -1062,11 +1062,11 @@
               das sedan i form i ugn</p>
       
       
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
       
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 50</p>
-         <p facs="recipie-title">Blomkålspudding.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 50</p>
+         <p facs="recipe-title">Blomkålspudding.</p>
          <p>Först kokas 53 gr. smör med 53 gr. mjöl, där-
             efter påspädes med 5 dl. uppkokt varm grädde.</p> 
             <p>När detta är något afkyldt, fröres 6 ägg-gulor, en i 
@@ -1076,11 +1076,11 @@
             Serveras med röret smör.</p>                            
       </div>
          
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
       
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 51</p>
-         <p facs="recipie-title">Färs med mesost</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 51</p>
+         <p facs="recipe-title">Färs med mesost</p>
             <p>3/4 färdigkokt och passeradt ris. Riset kokas 
             helst som till risotto.</p> 
             <p> 1 1/2 dl. rifven mesost, 3 semlor, 2 dl. rifven 
@@ -1098,10 +1098,10 @@
             <p>Sås af spadet, som blir i långpannan, redes 
             med smör, mjöl och litet grädde.</p>
      </div>
-     <div type="recipie-divide"><p>------</p></div>
-        <div type="recipie">
-           <p facs="recipie-nr">N:r 52</p>
-           <p facs="recipie-title">Gröna bullar.</p>
+     <div type="recipe-divide"><p>------</p></div>
+        <div type="recipe">
+           <p facs="recipe-nr">N:r 52</p>
+           <p facs="recipe-title">Gröna bullar.</p>
                <p>Man kokar potatis dagen förut, rifver sedan 
                8 1/2 dl. däraf, blandar det med 4 cl. mjöl och 4 
                ägg, 3 dl. passerad spenat, 1 dl. finhackad lök och 
@@ -1111,10 +1111,10 @@
                kokande, litet saltadt vatten.</p> 
                <p>Härtill holländsk sås.</p>  
        </div>
-       <div type="recipie-divide"><p>------</p></div>
-         <div type="recipie">
-            <p facs="recipie-nr">N:r 53</p>
-            <p facs="recipie-title">Grönkålspudding.</p>
+       <div type="recipe-divide"><p>------</p></div>
+         <div type="recipe">
+            <p facs="recipe-nr">N:r 53</p>
+            <p facs="recipe-title">Grönkålspudding.</p>
                <p>2 1/2 dl. färdig, passerad grönkål blandas med 
                5 ägg-gulor, 1 1/2 dl. gräddmjölk, 7 cl. smält smör, 
                socker, salt, närsalt, hvitorna sist till skum. Gräd-
@@ -1122,15 +1122,15 @@
                <p>Härtill mjölksås med lök, capris eller holländsk 
                sås.</p> 
          </div>
-         <div type="recipie-divide"><p>------</p></div>
+         <div type="recipe-divide"><p>------</p></div>
   
   
    <pb n="111"/>
    <fw type="header">SÅSER. 111</fw>
    <div type="chapter">
-      <div type="recipie">
-      <p facs="recipie-nr">N:r 151</p>
-      <p facs="recipie-title">Brun löksås.</p>
+      <div type="recipe">
+      <p facs="recipe-nr">N:r 151</p>
+      <p facs="recipe-title">Brun löksås.</p>
             <p>62 gr. smör fräses med 8 cl. mjöl och däri 
             brynes 1/2 stor, sönderskuren portugisisk lök ; därpå 
             hälles 1 l. vatten, 1/2 matsked citronsaft, 1/4 lager-
@@ -1138,11 +1138,11 @@
             <p>Allt kokas sakta 1 timme. Silas. </p>
       </div>
       
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
       
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 152.</p>
-         <p facs="recipie-title">Caprissås.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 152.</p>
+         <p facs="recipe-title">Caprissås.</p>
             <p>50 gr. smör fräses med 5 cl. mjöl (2 strukna 
             matskedar), spädes med 1/2 l. växtbuljong eller i 
             nödfall vatten samt 2 dl. grädde. Sedan ilägges 
@@ -1150,11 +1150,11 @@
             samt en aning salt. Kan afredas med en ägg-gula.</p>
       </div>
       
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
       
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 153.</p>
-         <p facs="recipie-tite">Champignonsås.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 153.</p>
+         <p facs="recipe-tite">Champignonsås.</p>
          <p>5 cl. smält smör fräses med 4 cl. mjöl, däri 
             slås 5 dl. blandadt champignonspad och växtbul-
             jong, som vispas väl. 2 ägg-gulor vispas med 1 
@@ -1165,15 +1165,15 @@
             med 2 teskedar citronsaft och 2 cl. hvitt vin.</p>
       </div>
       
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
   </div>
     
     <div type="chapter">      
       <pb n="125"/>
        <fw type="header">> GRÖNSAKER.125</fw>
-         <div type="recipie">
-            <p facs="recipie-nr">N:r 182.</p>
-            <p facs="recipie-title">Blomkål i form, 1.</p>
+         <div type="recipe">
+            <p facs="recipe-nr">N:r 182.</p>
+            <p facs="recipe-title">Blomkål i form, 1.</p>
                <p>Blomkål skäres i bitar och kokas i något sal-
                tadt vatten. En form smöras och däri läggas 
                blomkålsbitarna. Sedan öfverhälles följande bland-
@@ -1184,11 +1184,11 @@
                ägg, 1/4 l. mjölk samt salt. Gräddas i ugn.</p>
          </div>
          
-         <div type="recipie-divide"><p>------</p></div>
+         <div type="recipe-divide"><p>------</p></div>
          
-         <div type="recipie">
-            <p facs="recipie-nr">N:r 183</p>
-            <p facs="recipie-title">Blomkål i form, 2.</p>
+         <div type="recipe">
+            <p facs="recipe-nr">N:r 183</p>
+            <p facs="recipe-title">Blomkål i form, 2.</p>
                <p>Blomkål rensas, sköljes och kokas i litet sal-
                tadt vatten samt upptages därefter. Spadet till-
                varatages.</p> 
@@ -1201,7 +1201,7 @@
                <p>Insättes 10 min. i ugn.</p>
          </div>
        
-         <div type="recipie-divide"><p>------</p></div>
+         <div type="recipe-divide"><p>------</p></div>
       </div>
   
      
@@ -1209,9 +1209,9 @@
     
        <pb n="143"/>
      <fw type="header">ENKLARE EFTERRÄTTER SOM ANDRA RÄTT. 143</fw>
-         <div type="recipie">
-            <p facs="recipie-nr">N:r 226.</p>
-            <p facs="recipie-title">Fruktpudding, 1.</p>
+         <div type="recipe">
+            <p facs="recipe-nr">N:r 226.</p>
+            <p facs="recipe-title">Fruktpudding, 1.</p>
                <p>4 hgr. katrinplommon, 2 hgr. aprikoser och 
                2 hgr. ringäpplen blötläggas, hvar sort för sig, i 
                tillsammans 1 l. 2 dl. vatten.</p> 
@@ -1227,11 +1227,11 @@
                <p>Uppstjälpes genast och ätes kall med brylésås.</p>
          </div>
      
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
      
-       <div type="recipie">
-          <p facs="recipie-nr">N:r 227.</p>
-          <p facs="recipie-title">Fruktpudding, 2.</p>
+       <div type="recipe">
+          <p facs="recipe-nr">N:r 227.</p>
+          <p facs="recipe-title">Fruktpudding, 2.</p>
           <p>Äpplen i halfvor med borttagna kärnhus kokas 
              halffärdiga i så litet vatten och socker som möj-
              ligt. Upptagas och få afrinna. Man blandar 61/2 
@@ -1248,11 +1248,11 @@
             <p>Puddingen gräddas i ugn.</p> 
             <p>Serveras med vanilj- eller citronsås.</p> 
             
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
           
-       <div type="recipie">
-          <p facs="recipie-nr">N:r 228.</p>
-          <p facs="recipie-title">Katrinplommonkaka.</p>
+       <div type="recipe">
+          <p facs="recipe-nr">N:r 228.</p>
+          <p facs="recipe-title">Katrinplommonkaka.</p>
             <p>6 1/2 dl. mjölk kokas upp. Däri vispas 1 dl. 
              3 cl. (2 rågade matskedar) potatismjöl. Sedan det 
              kallnat, i röres 6 ägg samt litet rifvet citronskal. 
@@ -1264,11 +1264,11 @@
              <p>Ätes med vispad grädde.</p> 
        </div>
           
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
           
-       <div type="recipie">
-          <p facs="recipie-nr">N:r 229.</p>
-          <p facs="recipie-title">Krusbärskaka,1.</p>
+       <div type="recipe">
+          <p facs="recipe-nr">N:r 229.</p>
+          <p facs="recipe-title">Krusbärskaka,1.</p>
             <p> 220 gr. rifna semlor rostas i 160 gr. smör, 5 
              dl. 6 cl. mjölk slås öfver och får koka till en tjock 
              gröt. Sedan det något afsvalnat, fröres 9 ägg-
@@ -1283,11 +1283,11 @@
             <p>Ätes med vispad grädde.</p> 
       </div>
    
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
           
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 230.</p>
-         <p facs="recipie-title">Krusbärskaka,2.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 230.</p>
+         <p facs="recipe-title">Krusbärskaka,2.</p>
            <p>61/2 dl. krusbär kokas till mos med socker 
            efter smak, och får kallna. 7 ägg-gulor vispas 
            och nedröres därefter i det kalla moset, 1 dl. 6 
@@ -1300,11 +1300,11 @@
            ronsås eller också med vispad grädde.</p> 
   </div>
           
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
           
-      <div type="recipie">
-        <p facs="recipie-nr">N:r 231.</p>
-        <p facs="recipie-title">Kräm med bär eller frukt.</p>
+      <div type="recipe">
+        <p facs="recipe-nr">N:r 231.</p>
+        <p facs="recipe-title">Kräm med bär eller frukt.</p>
             <p>1 l. mjölk, 80 gr. rismjöl, 60 gr. socker, en 
              bit vanilj, 2 ägg-gulor kokas upp. Då det af-
              svalnat, fröres hvitorna till skum. Kompott eller 
@@ -1318,9 +1318,9 @@
     <pb n="163"/>
       <fw type="header">FINARE EFTERRÄTTER. 163</fw>
     
-       <div type="recipie">
-          <p facs="recipie-nr">N:r 261.</p>
-          <p facs="recipie-title">Apelsinpudding.</p>
+       <div type="recipe">
+          <p facs="recipe-nr">N:r 261.</p>
+          <p facs="recipe-title">Apelsinpudding.</p>
             <p>En kräm kokas af 2 dl. 4 cl. franskt vin, 7 
             ägg-gulor, saft af 3 apelsiner och 1 citron samt 
             212 gr. socker.</p> 
@@ -1333,11 +1333,11 @@
             iröres.</p>
        </div>
     
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
     
-       <div type="recipie">
-          <p facs="recipie-nr">N:r 262.</p>
-          <p facs="recipie-title">Biscuitpudding.</p>
+       <div type="recipe">
+          <p facs="recipe-nr">N:r 262.</p>
+          <p facs="recipe-title">Biscuitpudding.</p>
              <p>425 gr. sötmandel skållas, skalas, males och 
              blandas med 425 gr. strösocker och tillsättes med 
              10 ägghvitor vispade till hårdt skum. Gräddas 
@@ -1346,11 +1346,11 @@
              citronsås och syltade frukter.</p> 
        </div>
     
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
     
-       <div type="recipie">
-          <p facs="recipie-nr">N:r 263.</p>
-          <p facs="recipie-title">Blanc-manger med frukt.</p>
+       <div type="recipe">
+          <p facs="recipe-nr">N:r 263.</p>
+          <p facs="recipe-title">Blanc-manger med frukt.</p>
              <p>6 1/2 dl. grädde vispas till hårdt skum, däri 
              röres 6 blad gelatin, upplöst i varmt vatten, men
        
@@ -1362,11 +1362,11 @@
              hvad annan frukt man vill.</p>
        </div>
     
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
     
-       <div type="recipie">
-          <p facs="recipie-nr">N:r 263.</p>
-          <p facs="recipie-title">Blanc-manger med mandel.</p>
+       <div type="recipe">
+          <p facs="recipe-nr">N:r 263.</p>
+          <p facs="recipe-title">Blanc-manger med mandel.</p>
             <p>75 gr. sötmandel och 5 gr. bittermandel skål-
              las och males, 1 l. grädde vispas till hårdt skum. 
              Tillsättes med vaniljsocker efter smak, 2 mat-
@@ -1377,11 +1377,11 @@
              hvarefter blanc-mangen pickeras därmed.</p>
        </div>
     
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
     
-       <div type="recipie">
-          <p facs="recipie-nr">N:r 264.</p>
-          <p facs="recipie-title">Brylé pudding.</p>
+       <div type="recipe">
+          <p facs="recipe-nr">N:r 264.</p>
+          <p facs="recipe-title">Brylé pudding.</p>
           <p>1 l. 2 1/2 dl. mjölk uppkokas och slås öfver 
              9 vispade ägg, 5 cl. socker och 100 gr. malen 
              mandel. Sedan hälles allt i sockerglaserad form 
@@ -1390,7 +1390,7 @@
              med vatten. Uppstjälpes ur formen genast.</p>
        </div>
     
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
     </div>
   </div> 
             
@@ -1398,9 +1398,9 @@
      <pb n="177"/>
      <fw type="header">BAKVERK. 177</fw>
      
-        <div type="recipie">
-           <p facs="recipie-nr">N:r 283.</p>
-           <p facs="recipie-title">Brun kaka.</p>
+        <div type="recipe">
+           <p facs="recipe-nr">N:r 283.</p>
+           <p facs="recipe-title">Brun kaka.</p>
               <p>2 dl. 7 cl. brunt pudersocker blandas med 3 
               dl. 6 cl. hvetemjöl, 9 cl. skiradt smör, 9 cl. sur 
               grädde, 3 ägg, 1 tesked soda, 1 tesked karde-
@@ -1409,11 +1409,11 @@
               i smörad form.</p>
         </div>
      
-        <div type="recipie-divide"><p>------</p></div>
+        <div type="recipe-divide"><p>------</p></div>
      
-        <div type="recipie">
-           <p facs="recipie-nr">N:r 284.</p>
-           <p facs="recipie-title">Cakes.</p>
+        <div type="recipe">
+           <p facs="recipe-nr">N:r 284.</p>
+           <p facs="recipe-title">Cakes.</p>
               <p>212 gr. smör röres tills det blir hvitt, och då
               tillsättes 212 gr. socker, 8 ägg, 1 dl. 5 cl. grädde
               425 gr. potatismjöl och så mycket hvetemjöl 
@@ -1424,11 +1424,11 @@
               korna uttagas.</p>
         </div>
      
-        <div type="recipie-divide"><p>------</p></div>
+        <div type="recipe-divide"><p>------</p></div>
      
-        <div type="recipie">
-           <p facs="recipie-nr">N:r 285.</p>
-           <p facs="recipie-title">Formbröd.</p> 
+        <div type="recipe">
+           <p facs="recipe-nr">N:r 285.</p>
+           <p facs="recipe-title">Formbröd.</p> 
               <p>1 1. mjölk, salt, närsalt, 20 gr. jäst, ungefär 
               2 1. mjöl och 150 gr. smör knådas till deg. Får
      
@@ -1442,11 +1442,11 @@
             gräddas.</p>
             <p>Användes som rostbröd till smör och honung</p>
         
-        <div type="recipie-divide"><p>------</p></div>
+        <div type="recipe-divide"><p>------</p></div>
            
-        <div type="recipie">
-           <p facs="recipie-nr">N:r 286.</p>
-           <p facs="recipie-title">Grahamsbröd.</p>
+        <div type="recipe">
+           <p facs="recipe-nr">N:r 286.</p>
+           <p facs="recipe-title">Grahamsbröd.</p>
            <p>2 l. mjölk, 15 gr. jäst, 2 dl. sirap och omkring 
               5 l. groft grahammjöl, beroende på mjölets beskaf-
               fenhet, arbetas på kvällen till en lös deg i ett fat 
@@ -1460,11 +1460,11 @@
               de långsamt svalnat.</p> 
            
         </div>
-        <div type="recipie-divide"><p>------</p></div>
+        <div type="recipe-divide"><p>------</p></div>
         
-        <div type="recipie">
-           <p facs="recipie-nr">N:r 287.</p>
-           <p facs="recipie-title">Grahamsskorpor.</p> 
+        <div type="recipe">
+           <p facs="recipe-nr">N:r 287.</p>
+           <p facs="recipe-title">Grahamsskorpor.</p> 
            <p>2 l. mjölk värmes, därpå fröres grahammjöl 
               och 50 gr. jäst. Detta bör göras på afton, och
 
@@ -1478,11 +1478,11 @@
               afsvalnade och torkas till skorpor.</p>
         </div>
            
-        <div type="recipie-divide"><p>------</p></div>
+        <div type="recipe-divide"><p>------</p></div>
         
-           <div type="recipie">
-           <p facs="recipie-nr">N:r 288.</p>
-           <p facs="recipie-title">Hafrecakes.</p>
+           <div type="recipe">
+           <p facs="recipe-nr">N:r 288.</p>
+           <p facs="recipe-title">Hafrecakes.</p>
               <p>5 l. hafremjöl, 1 l. hvetemjöl, 2 l. söt mjölk, 
               425 gr. skiradt smör, 4 cl. socker, en aning salt, 6
               cl. (6 teskedar) natron och närsalt arbetas väl till-
@@ -1490,11 +1490,11 @@
               tages med ett glas runda kakor, som gräddas.</p>
         </div>
            
-        <div type="recipie-divide"><p>------</p></div>
+        <div type="recipe-divide"><p>------</p></div>
            
-        <div type="recipie">
-           <p facs="recipie-nr">N:r 289.</p>
-           <p facs="recipie-title">Hvetebröd.</p>
+        <div type="recipe">
+           <p facs="recipe-nr">N:r 289.</p>
+           <p facs="recipe-title">Hvetebröd.</p>
               <p>På kvällen blandas 1 1/2 l. mjölk, 37 gr. jäst 
               med så mycket hvetemjöl, att det blir en rätt fast 
               deg, som öfvertäckes.</p>
@@ -1504,7 +1504,7 @@
               bullar, som få jäsa, hvarefter de gräddas.</p>  
         </div>
            
-        <div type="recipie-divide"><p>------</p></div>        
+        <div type="recipe-divide"><p>------</p></div>        
      </div>   
   </div>
             
@@ -1513,9 +1513,9 @@
    <pb n="193"/>
    <fw type="header">BAKVERK. 193</fw>
      
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 313.</p>
-         <p facs="recipie-title">Dannemoragröt.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 313.</p>
+         <p facs="recipe-title">Dannemoragröt.</p>
             <p>2 l. 6 dl. mjölk sättes på elden med 25 gr. 
             smör och 2 cl. vaniljsocker. Då det kokar ivispas 
             8 cl. (2 mindre matskedar) hvetemjöl och 1 dl. 
@@ -1526,11 +1526,11 @@
             med mjölk.</p>
       </div>
      
-      <div type="recipie-divide"><p>------</p></div> 
+      <div type="recipe-divide"><p>------</p></div> 
      
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 314</p>
-         <p facs="recipie-title">Hafregrynsgröt.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 314</p>
+         <p facs="recipe-title">Hafregrynsgröt.</p>
             <p>1/2 l. små vanliga hafregryn läggas i 1 1/2 l. 
             vatten att svälla öfver natten. Kokas sedan i samma 
             vatten i reformkokare eller gryta med tätt lock. 
@@ -1539,11 +1539,11 @@
             och närsalt tillsättes.</p>
       </div>
      
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
      
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 315</p>
-         <p facs="recipie-title">Hafregröt att steka.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 315</p>
+         <p facs="recipe-title">Hafregröt att steka.</p>
             <p>1/2 l. vanliga små gryn läggas uti 1 1/2 l. vatten 
             att svälla öfver natten. Ångkokas sedan i samma 
             vatten och färdig uppslås den på fat att kallna.
@@ -1556,9 +1556,9 @@
           smör och ätes med lingon eller blåbärskompott.</p>
       </div>
      
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 316.</p>
-         <p facs="recipie-title">Mannagrynsgröt.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 316.</p>
+         <p facs="recipe-title">Mannagrynsgröt.</p>
             <p>2 l. mjölk, 1/2 l. vatten får koka upp. Däri 
             vispas 1/2 l. mannagryn, salt och ett par malda bit-
             termandlar, om man så vill. Gröten får koka sakta 
@@ -1567,11 +1567,11 @@
             eller mjölk.</p>
       </div>
      
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
      
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 317.</p>
-         <p facs="recipie-title">Polentagröt.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 317.</p>
+         <p facs="recipe-title">Polentagröt.</p>
             <p>1/2 l. gryn vispas i 1 1/4 l, mjölk och 1 l. vatten, 
             då det kokar. Salt, litet rifvet citronskal och några 
             malda bittermandlar tillsättes.</p> 
@@ -1579,11 +1579,11 @@
             <p>Ätes med kompott eller mjölk. </p>
       </div>
      
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
      
-      <div type="recipie">
-        <p facs="recipie-nr">N:r 318.</p>
-        <p facs="recipie-title">Risgrynsgröt.</p>
+      <div type="recipe">
+        <p facs="recipe-nr">N:r 318.</p>
+        <p facs="recipe-title">Risgrynsgröt.</p>
             <p>50 gr. kallt smör lägges i kastrullen, därpå 1 l. 
             7 dl. mjölk, som får koka upp, då 1/3 l. risgryn
     
@@ -1595,33 +1595,33 @@
             stå vid sidan på spisen och koka mycket sakta 
             och med tätt lock. Serveras med kompott eller mjölk.</p>
       
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 319.</p>
-         <p facs="recipie-title">Rågmjölsgröt.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 319.</p>
+         <p facs="recipe-title">Rågmjölsgröt.</p>
             <p> 1/2 l. vatten får koka upp och däri vispas 
             4 dl. 7 cl. groft rågmjöl, förut rördt i 3 dl. vatten.</p> 
             <p>Gröten måste vispas duktigt och får sedan stå 
             och småkoka 30-40 minuter. Saltas.</p> 
             <p>Ätes med kompott eller mjölk.</p>
       </div>
-      <div type="recipie-divide"><p>------</p></div>
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 320.</p>
-         <p facs="recipie-title">Smörgröt.</p>
+      <div type="recipe-divide"><p>------</p></div>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 320.</p>
+         <p facs="recipe-title">Smörgröt.</p>
             <p>150 gr. smör och 5 1/2 dl. mjöl fräses, spädes 
             med 1 l. 6 dl. mjölk och får koka en stund. Upp-
             hålles sedan i karott att stanna.</p> 
             <p>Serveras kall med kompott eller mjölk.</p>
       </div>
-      <div type="recipie-divide"><p>------</p></div>
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 321.</p>
-         <p facs="recipie-title">Äppelris.</p>
+      <div type="recipe-divide"><p>------</p></div>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 321.</p>
+         <p facs="recipe-title">Äppelris.</p>
             <p>1 1/4 l. risgrynsgröt blandas med 1 l. passerad 
             äppelmos.</p> 
             <p>Serveras med gräddmjölk</p>
       </div>
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
     </div>     
   </div>       
    
@@ -1630,19 +1630,19 @@
    <pb n="200"/>
     <fw type="header">200 DRYCKER.</fw>
     
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 325.</p>
-         <p facs="recipie-title">Rabarber och vinbärsdryck.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 325.</p>
+         <p facs="recipe-title">Rabarber och vinbärsdryck.</p>
          <p>6 dl. sur rabarber- och vinbärssaft, 6 dl. vat-
             ten, 1 dl. apelsinsaft, 3 dl. blåbärssaft af kompott 
             och 1/2 dl. strösocker. Blandas väl.</p> 
       </div>
     
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
     
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 326.</p>
-         <p facs="recipie-title">Sorbetto.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 326.</p>
+         <p facs="recipe-title">Sorbetto.</p>
             <p>6 st. tjocka rabarberstjälkar skalas, skäres i 
             bitar, öfverhälles med 1 1. vatten. 125-130 gr. 
             socker och skalet af 1/2 citron tillsättes; får stå 
@@ -1651,14 +1651,14 @@
             upp och silas. Drickes kallt. </p>
       </div>
     
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
     
-      <div type="recipie">
-          <p facs="recipie-nr">N:r 327.</p>
-          <p facs="recipie-title">Sur mjölk.</p>
+      <div type="recipe">
+          <p facs="recipe-nr">N:r 327.</p>
+          <p facs="recipe-title">Sur mjölk.</p>
              <p>Surnad mjölk vispas väl och serveras i glas.</p>
       </div>
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
      
  </div>
 
@@ -1666,9 +1666,9 @@
  
    <pb n="203"/>
     <fw type="header">INLÄGGNINGAR AF KOMPOTT M. M. 203</fw>
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 328.</p>
-         <p facs="recipie-title">Apelsinsaft.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 328.</p>
+         <p facs="recipe-title">Apelsinsaft.</p>
          <p>10 apelsiner borstas med mjuk borste, doppad
             i ljumt såpvatten, sköljas och torkas väl. 2 kg.
             toppsocker i bitar. Skalen på apelsinerna afrifvas
@@ -1677,12 +1677,12 @@
             2 1/2 l. vatten. Saften får stå öfvertäckt ett dygn,
             hvarefter den silas, skummas och hålles på flaskor.</p>
          
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
       </div>
     
-      <div type="recipie">
-         <p facs="recipie-nr">N:r 329.</p>
-         <p facs="recipie-title">Bigaråkompott.</p>
+      <div type="recipe">
+         <p facs="recipe-nr">N:r 329.</p>
+         <p facs="recipe-title">Bigaråkompott.</p>
          <p>Bären sköljas och om man vill urkärnas, hvar-
             vid man brukar lägga några innerkärnor i hvarje
             burk, annars kunna bären läggas med kärnorna i.
@@ -1704,9 +1704,9 @@
   
    <pb n="231"/>
     <fw type="header">MATSEDLAR FOR EN MÅNAD, SOMMAREN 231</fw>
-      <div type="recipie">
-         <!--<p facs="recipie-nr"></p>-->
-         <p facs="recipie-title">SOMMAREN. .</p>
+      <div type="recipe">
+         <!--<p facs="recipe-nr"></p>-->
+         <p facs="recipe-title">SOMMAREN. .</p>
          <p>Till hvarje mål, om man så hafva kan, rikligt
             med friska bär eller kompott af alla slag samt
             frukt, allt efter årstiden, färsk eller inkokt.
@@ -1718,8 +1718,8 @@
             honung och ibland ost eller quark.
             Till middagen endast hårdt groft bröd.</p>
       </div>
-            <div type="recipie-divide"><p>------</p></div>
-      <div type="recipie">
+            <div type="recipe-divide"><p>------</p></div>
+      <div type="recipe">
                <p>MÅNDAG.</p>
                <p>Lunch: Spenatomelett med stekt potatis.</p>
                <p>Middag: Wienerbullar med blomkål, färsk po-
@@ -1740,9 +1740,9 @@
   
     <pb n="257"/>
       <fw type="header">EXEMPEL PÅ FESTMIDDAGAR. 257</fw>
-       <div type="recipie">
-          <!--<p facs="recipie-nr"></p>-->
-          <p facs="recipie-title">Vår</p>
+       <div type="recipe">
+          <!--<p facs="recipe-nr"></p>-->
+          <p facs="recipe-title">Vår</p>
              <p>Middag: Jordärtskockssoppa med oststänger.
              Vôle-au-vent med gurkragout och färsk salat.
              Murkelris i form, uppstjälpt med murkelsås,
@@ -1752,10 +1752,10 @@
              med citronsås och kompott. Apelsiner, äpplen,
              valnötter, russin, chocolad.</p> 
        </div>
-      <div type="recipie-divide"><p>------</p></div>
-       <div type="recipie">
-          <!--<p facs="recipie-nr"></p>-->
-          <p facs="recipie-title">Sommar</p>
+      <div type="recipe-divide"><p>------</p></div>
+       <div type="recipe">
+          <!--<p facs="recipe-nr"></p>-->
+          <p facs="recipe-title">Sommar</p>
              <p>Middag: Klar grönsoppa och smörgåsar med 
              ost. Potatispudding 1 med svampsås, ärter, 
              potatiskroketter och sockerärter samt lingon-
@@ -1764,15 +1764,15 @@
              russin och mandel samt frusen grädde. Vin-
              drufvor, klara astrakaner och melon.</p>
        </div> 
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
        <note n="allmänna iakttagelser nr 17" place="bottom">17</note>
     
  
     <pb n="258"/>
       <fw type="header">258 EXEMPEL PÅ FESTMIDDAGAR.</fw>
-       <div type="recipie">
-          <!--<p facs="recipie-nr"></p>-->
-          <p facs="recipie-title">Höst</p>
+       <div type="recipe">
+          <!--<p facs="recipe-nr"></p>-->
+          <p facs="recipe-title">Höst</p>
              <p>Middag : Tomatsoppa med formar till soppa. 
              Smördegsbotten med champignonstufning. 
              Nudel, kokt i lökspad med morotspastejer, 
@@ -1782,10 +1782,10 @@
              äpplen, päron, rostade mandlar, dadlar, choco-
              lade.</p>
         </div> 
-      <div type="recipie-divide"><p>------</p></div>
-      <div type="recipie">
-         <!--<p facs="recipie-nr"></p>-->
-         <p facs="recipie-title">Vinter</p>
+      <div type="recipe-divide"><p>------</p></div>
+      <div type="recipe">
+         <!--<p facs="recipe-nr"></p>-->
+         <p facs="recipe-title">Vinter</p>
             <p>Middag: Kastanjepure och stekta bullar med 
             ost. Vegetarisk salat med sås, små smördegs-
             rutor och halfva ägg. Äggsoufflé med spar-
@@ -1796,15 +1796,15 @@
             rostade mandlar, dadlar, chocolad och frukt-
             pastiller.</p>
       </div>
-      <div type="recipie-divide"><p>------</p></div>
+      <div type="recipe-divide"><p>------</p></div>
     
  </div>
  <div type="chapter">
     <pb n="261"/>
        <fw type="header">JULMAT.261</fw> 
-       <div type="recipie">
-          <!--<p facs="recipie-nr"></p>-->
-          <p facs="recipie-title">Julafton</p>
+       <div type="recipe">
+          <!--<p facs="recipe-nr"></p>-->
+          <p facs="recipe-title">Julafton</p>
             <p>Lunch: Vörtbröd, saffrans- och hvetebröd med
              russin, pepparkakor, chocolad, honung, ris-
              grynsgröt med kompott och mjölk.</p> 
@@ -1812,10 +1812,10 @@
              bröd med ost. Potatispudding med svampsås, 
              ärter och helbrynt potatis samt vinbärsgelé.</p>
        </div>
-       <div type="recipie-divide"><p>------</p></div>
-       <div type="recipie">
-          <!--<p facs="recipie-nr"></p>-->
-          <p facs="recipie-title">Juldagen</p>
+       <div type="recipe-divide"><p>------</p></div>
+       <div type="recipe">
+          <!--<p facs="recipe-nr"></p>-->
+          <p facs="recipe-title">Juldagen</p>
              <p>Lunch: Vörtbrod, saffrans- och hvetebrod med 
              russin, pepparkakor, chocolad och ost. Korn-
              grynskaka med lingon.</p> 
@@ -1827,7 +1827,7 @@
              Frukt, nötter, fikon, russin och mandel, choco-
              -lad och små marcipangrisar.</p>
        </div>
-       <div type="recipie-divide"><p>------</p></div>
+       <div type="recipe-divide"><p>------</p></div>
          
  
  
